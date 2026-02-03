@@ -1,7 +1,6 @@
 // Restaurant data from Anthony Bourdain's shows
 // Comprehensive collection from No Reservations, Parts Unknown, and The Layover
 const restaurants = [
-    // NEW YORK
     {
         id: 1,
         name: "Les Halles",
@@ -114,8 +113,6 @@ const restaurants = [
         reservationUrl: "https://www.russanddaughters.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Russ+Daughters+New+York"
     },
-    
-    // VIETNAM
     {
         id: 8,
         name: "Bun Cha Huong Lien",
@@ -164,8 +161,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Banh+Mi+25+Hanoi"
     },
-    
-    // JAPAN
     {
         id: 11,
         name: "Sukiyabashi Jiro",
@@ -230,8 +225,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Nakiryu+Ramen+Tokyo"
     },
-    
-    // FRANCE
     {
         id: 15,
         name: "La Coupole",
@@ -296,8 +289,6 @@ const restaurants = [
         reservationUrl: "https://www.pieddecochon.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Au+Pied+de+Cochon+Paris"
     },
-    
-    // LOUISIANA
     {
         id: 19,
         name: "Cafe du Monde",
@@ -378,8 +369,6 @@ const restaurants = [
         reservationUrl: "https://www.cochonrestaurant.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cochon+New+Orleans"
     },
-    
-    // TEXAS
     {
         id: 24,
         name: "Franklin Barbecue",
@@ -444,8 +433,6 @@ const restaurants = [
         reservationUrl: "https://uchiaustin.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Uchi+Austin"
     },
-    
-    // SPAIN
     {
         id: 28,
         name: "El Bulli",
@@ -526,8 +513,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Casa+Lucio+Madrid"
     },
-    
-    // ITALY
     {
         id: 33,
         name: "Osteria Francescana",
@@ -608,8 +593,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Antica+Pizzeria+Port'Alba+Naples"
     },
-    
-    // CALIFORNIA
     {
         id: 38,
         name: "A16",
@@ -690,8 +673,6 @@ const restaurants = [
         reservationUrl: "https://providencela.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Providence+Los+Angeles"
     },
-    
-    // PORTLAND
     {
         id: 43,
         name: "Pok Pok",
@@ -740,8 +721,6 @@ const restaurants = [
         reservationUrl: "https://www.voodoodoughnut.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Voodoo+Doughnut+Portland"
     },
-    
-    // UK
     {
         id: 46,
         name: "St. John",
@@ -806,8 +785,6 @@ const restaurants = [
         reservationUrl: "https://www.thewolseley.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Wolseley+London"
     },
-    
-    // THAILAND
     {
         id: 50,
         name: "Jay Fai",
@@ -856,8 +833,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Krua+Apsorn+Bangkok"
     },
-    
-    // MEXICO
     {
         id: 53,
         name: "Pujol",
@@ -906,8 +881,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Contramar+Mexico+City"
     },
-    
-    // HONG KONG
     {
         id: 56,
         name: "Tim Ho Wan",
@@ -956,8 +929,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Ser+Wong+Fun+Hong+Kong"
     },
-    
-    // SOUTH
     {
         id: 59,
         name: "Waffle House",
@@ -1006,8 +977,6 @@ const restaurants = [
         reservationUrl: "https://www.theshedbbq.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Shed+BBQ+Ocean+Springs"
     },
-    
-    // MONTREAL
     {
         id: 62,
         name: "Schwartz's Deli",
@@ -1056,8 +1025,6 @@ const restaurants = [
         reservationUrl: "https://www.aupieddecochon.ca/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Au+Pied+de+Cochon+Montreal"
     },
-    
-    // SINGAPORE
     {
         id: 65,
         name: "Hawker Chan",
@@ -1106,8 +1073,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Hill+Street+Tai+Hwa+Pork+Noodle+Singapore"
     },
-    
-    // KOREA
     {
         id: 68,
         name: "Gwangjang Market",
@@ -1156,8 +1121,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Myeongdong+Kyoja+Seoul"
     },
-    
-    // PERU
     {
         id: 71,
         name: "Central",
@@ -1206,8 +1169,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mercado+de+Surquillo+Lima"
     },
-    
-    // CHICAGO
     {
         id: 74,
         name: "Girl & The Goat",
@@ -1272,8 +1233,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Au+Cheval+Chicago"
     },
-    
-    // BRAZIL
     {
         id: 78,
         name: "D.O.M.",
@@ -1322,8 +1281,6 @@ const restaurants = [
         reservationUrl: "https://www.confeitariacolombo.com.br/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Confeitaria+Colombo+Rio"
     },
-    
-    // MOROCCO
     {
         id: 81,
         name: "Café Clock",
@@ -1356,8 +1313,6 @@ const restaurants = [
         reservationUrl: "https://www.lamaisonarabe.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Maison+Arabe+Marrakech"
     },
-    
-    // LEBANON
     {
         id: 83,
         name: "Tawlet",
@@ -1390,8 +1345,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Abou+Hassan+Beirut"
     },
-    
-    // SEATTLE
     {
         id: 85,
         name: "The Walrus and the Carpenter",
@@ -1424,8 +1377,6 @@ const restaurants = [
         reservationUrl: "https://www.pikeplacechowder.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pike+Place+Chowder+Seattle"
     },
-    
-    // ARGENTINA
     {
         id: 87,
         name: "Don Julio",
@@ -1458,8 +1409,6 @@ const restaurants = [
         reservationUrl: "https://www.lacabrera.com.ar/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Cabrera+Buenos+Aires"
     },
-    
-    // ISRAEL
     {
         id: 89,
         name: "Abu Hassan",
@@ -1492,8 +1441,6 @@ const restaurants = [
         reservationUrl: "https://www.machneyuda.co.il/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Machneyuda+Jerusalem"
     },
-    
-    // GREECE
     {
         id: 91,
         name: "Funky Gourmet",
@@ -1526,8 +1473,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Klimataria+Athens"
     },
-    
-    // MOROCCO
     {
         id: 93,
         name: "Al Fassia",
@@ -1544,8 +1489,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Al+Fassia+Marrakech"
     },
-    
-    // TURKEY
     {
         id: 94,
         name: "Çiya Sofrası",
@@ -1578,8 +1521,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Karaköy+Lokantası+Istanbul"
     },
-    
-    // MYANMAR
     {
         id: 96,
         name: "Feel Myanmar Food",
@@ -1612,8 +1553,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Shan+Yoe+Yar+Yangon"
     },
-    
-    // COPENHAGEN
     {
         id: 98,
         name: "Noma",
@@ -1662,8 +1601,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=DØP+Copenhagen"
     },
-    
-    // PHILIPPINES
     {
         id: 101,
         name: "Manam Comfort Filipino",
@@ -1696,8 +1633,6 @@ const restaurants = [
         reservationUrl: "https://www.jollibee.com.ph/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Jollibee+Manila"
     },
-    
-    // ETHIOPIA
     {
         id: 103,
         name: "Yod Abyssinia",
@@ -1714,8 +1649,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Yod+Abyssinia+Addis+Ababa"
     },
-    
-    // COLOMBIA
     {
         id: 104,
         name: "La Puerta Falsa",
@@ -1748,8 +1681,6 @@ const restaurants = [
         reservationUrl: "https://www.andrescarnederes.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Andres+Carne+de+Res+Chia"
     },
-    
-    // INDIA
     {
         id: 106,
         name: "Indian Accent",
@@ -1798,8 +1729,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Britannia+Co+Mumbai"
     },
-    
-    // INDONESIA
     {
         id: 109,
         name: "Nasi Uduk Kebon Kacang",
@@ -1832,8 +1761,6 @@ const restaurants = [
         reservationUrl: "https://www.bebekbengil.co.id/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bebek+Bengil+Ubud"
     },
-    
-    // MALAYSIA
     {
         id: 111,
         name: "Jalan Alor",
@@ -1866,8 +1793,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Restoran+Rebung+Chef+Ismail+KL"
     },
-    
-    // TAIWAN
     {
         id: 113,
         name: "Din Tai Fung",
@@ -1916,8 +1841,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Ay-Chung+Flour-Rice+Noodle+Taipei"
     },
-    
-    // IRELAND
     {
         id: 116,
         name: "The Brazen Head",
@@ -1950,8 +1873,6 @@ const restaurants = [
         reservationUrl: "https://www.chapteronerestaurant.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Chapter+One+Dublin"
     },
-    
-    // SCOTLAND
     {
         id: 118,
         name: "The Kitchin",
@@ -1968,8 +1889,6 @@ const restaurants = [
         reservationUrl: "https://www.thekitchin.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Kitchin+Edinburgh"
     },
-    
-    // ICELAND
     {
         id: 119,
         name: "Dill Restaurant",
@@ -2002,8 +1921,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bæjarins+Beztu+Pylsur+Reykjavik"
     },
-    
-    // NORWAY
     {
         id: 121,
         name: "Maaemo",
@@ -2020,8 +1937,6 @@ const restaurants = [
         reservationUrl: "https://maaemo.no/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Maaemo+Oslo"
     },
-    
-    // SWEDEN
     {
         id: 122,
         name: "Oaxen Krog",
@@ -2038,8 +1953,6 @@ const restaurants = [
         reservationUrl: "https://oaxen.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Oaxen+Krog+Stockholm"
     },
-    
-    // NETHERLANDS
     {
         id: 123,
         name: "De Librije",
@@ -2056,8 +1969,6 @@ const restaurants = [
         reservationUrl: "https://www.librije.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=De+Librije+Zwolle"
     },
-    
-    // BELGIUM
     {
         id: 124,
         name: "Comme Chez Soi",
@@ -2090,8 +2001,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Fritland+Brussels"
     },
-    
-    // GERMANY
     {
         id: 126,
         name: "Curry 36",
@@ -2124,8 +2033,6 @@ const restaurants = [
         reservationUrl: "https://nobelhartundschmutzig.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Nobelhart+Schmutzig+Berlin"
     },
-    
-    // AUSTRIA
     {
         id: 128,
         name: "Steirereck",
@@ -2158,8 +2065,6 @@ const restaurants = [
         reservationUrl: "https://www.cafecentral.wien/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Café+Central+Vienna"
     },
-    
-    // SWITZERLAND
     {
         id: 130,
         name: "Restaurant de l'Hôtel de Ville",
@@ -2176,8 +2081,6 @@ const restaurants = [
         reservationUrl: "https://www.restaurantcrissier.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Restaurant+de+l'Hôtel+de+Ville+Crissier"
     },
-    
-    // PORTUGAL
     {
         id: 131,
         name: "Cervejaria Ramiro",
@@ -2210,8 +2113,6 @@ const restaurants = [
         reservationUrl: "https://www.belcanto.pt/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Belcanto+Lisbon"
     },
-    
-    // POLAND
     {
         id: 133,
         name: "Milk Bar Prasowy",
@@ -2228,8 +2129,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Milk+Bar+Prasowy+Warsaw"
     },
-    
-    // CZECH REPUBLIC
     {
         id: 134,
         name: "Lokál",
@@ -2246,8 +2145,6 @@ const restaurants = [
         reservationUrl: "https://lokal-dlouha.ambi.cz/en/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Lokál+Prague"
     },
-    
-    // RUSSIA
     {
         id: 135,
         name: "Cafe Pushkin",
@@ -2264,8 +2161,6 @@ const restaurants = [
         reservationUrl: "https://www.cafe-pushkin.ru/en/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cafe+Pushkin+Moscow"
     },
-    
-    // SOUTH AFRICA
     {
         id: 136,
         name: "The Test Kitchen",
@@ -2282,8 +2177,6 @@ const restaurants = [
         reservationUrl: "https://thetestkitchen.co.za/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Test+Kitchen+Cape+Town"
     },
-    
-    // SENEGAL
     {
         id: 137,
         name: "Chez Loutcha",
@@ -2300,8 +2193,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Chez+Loutcha+Dakar"
     },
-    
-    // TANZANIA
     {
         id: 138,
         name: "The Rock Restaurant",
@@ -2318,8 +2209,6 @@ const restaurants = [
         reservationUrl: "https://therockrestaurantzanzibar.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Rock+Restaurant+Zanzibar"
     },
-    
-    // JAMAICA
     {
         id: 139,
         name: "Scotchies",
@@ -2336,8 +2225,6 @@ const restaurants = [
         reservationUrl: "https://www.scotchiesjerk.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Scotchies+Montego+Bay"
     },
-    
-    // TRINIDAD
     {
         id: 140,
         name: "Patraj",
@@ -2354,8 +2241,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Patraj+Port+of+Spain"
     },
-    
-    // EGYPT
     {
         id: 141,
         name: "Abou El Sid",
@@ -2372,8 +2257,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Abou+El+Sid+Cairo"
     },
-    
-    // IRAN
     {
         id: 142,
         name: "Moslem Restaurant",
@@ -2390,8 +2273,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Moslem+Restaurant+Tehran"
     },
-    
-    // CHILE
     {
         id: 143,
         name: "Boragó",
@@ -2408,8 +2289,6 @@ const restaurants = [
         reservationUrl: "https://borago.cl/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Boragó+Santiago"
     },
-    
-    // URUGUAY
     {
         id: 144,
         name: "Mercado del Puerto",
@@ -2426,8 +2305,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mercado+del+Puerto+Montevideo"
     },
-    
-    // NICARAGUA
     {
         id: 145,
         name: "Fritanga Doña Haydee",
@@ -2444,8 +2321,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Fritanga+Doña+Haydee+Managua"
     },
-    
-    // CUBA
     {
         id: 146,
         name: "La Guarida",
@@ -2478,8 +2353,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=San+Cristobal+Paladar+Havana"
     },
-    
-    // PUERTO RICO
     {
         id: 148,
         name: "José Enrique",
@@ -2496,8 +2369,6 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=José+Enrique+San+Juan"
     },
-    
-    // AUSTRALIA
     {
         id: 149,
         name: "Quay",
@@ -2530,8 +2401,6 @@ const restaurants = [
         reservationUrl: "https://www.attica.com.au/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Attica+Melbourne"
     },
-    
-    // NEW ZEALAND
     {
         id: 151,
         name: "Fergburger",
@@ -2548,8 +2417,6 @@ const restaurants = [
         reservationUrl: "https://www.fergburger.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Fergburger+Queenstown"
     },
-    
-    // CANADA (More Cities)
     {
         id: 152,
         name: "Vij's",
@@ -2582,8 +2449,6 @@ const restaurants = [
         reservationUrl: "https://www.cabaneasucre.ca/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Au+Pied+de+Cochon+Cabane+Mirabel"
     },
-    
-    // MORE USA CITIES
     {
         id: 154,
         name: "Prince's Hot Chicken",
@@ -2696,7 +2561,6 @@ const restaurants = [
         reservationUrl: "https://www.patskingofsteaks.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pat's+King+of+Steaks+Philadelphia"
     },
-    // VIETNAM - Additional
     {
         id: 161,
         name: "Bun Bo Hue Dong Ba",
@@ -2729,41 +2593,8 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Banh+Xeo+46A+Ho+Chi+Minh+City"
     },
-    // JAPAN - Additional
     {
         id: 163,
-        name: "Tsukiji Fish Market",
-        city: "Tokyo",
-        country: "Japan",
-        address: "5 Chome-2-1 Tsukiji, Chuo City, Tokyo",
-        lat: 35.6654,
-        lng: 139.7707,
-        show: "No Reservations",
-        episode: "Tokyo",
-        cuisine: "Seafood Market",
-        status: "open",
-        description: "World's largest fish market (moved to Toyosu in 2018).",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tsukiji+Fish+Market+Tokyo"
-    },
-    {
-        id: 164,
-        name: "Sukiyabashi Jiro",
-        city: "Tokyo",
-        country: "Japan",
-        address: "Tsukamoto Sogyo Building, Ginza, Chuo City, Tokyo",
-        lat: 35.6704,
-        lng: 139.7634,
-        show: "Parts Unknown",
-        episode: "Tokyo",
-        cuisine: "Sushi",
-        status: "open",
-        description: "3-Michelin star sushi restaurant by Jiro Ono. Featured in 'Jiro Dreams of Sushi'.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Sukiyabashi+Jiro+Tokyo"
-    },
-    {
-        id: 165,
         name: "Nakau",
         city: "Tokyo",
         country: "Japan",
@@ -2779,23 +2610,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Nakau+Tokyo"
     },
     {
-        id: 166,
-        name: "Ichiran Ramen",
-        city: "Tokyo",
-        country: "Japan",
-        address: "Multiple locations, Tokyo",
-        lat: 35.6938,
-        lng: 139.7036,
-        show: "The Layover",
-        episode: "Tokyo",
-        cuisine: "Ramen",
-        status: "open",
-        description: "Famous for individual booth seating and customizable tonkotsu ramen.",
-        reservationUrl: "https://en.ichiran.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Ichiran+Ramen+Tokyo"
-    },
-    {
-        id: 167,
+        id: 164,
         name: "Yakitori Alley (Omoide Yokocho)",
         city: "Tokyo",
         country: "Japan",
@@ -2811,7 +2626,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Omoide+Yokocho+Tokyo"
     },
     {
-        id: 168,
+        id: 165,
         name: "Dōtonbori Street Food",
         city: "Osaka",
         country: "Japan",
@@ -2826,25 +2641,8 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Dotonbori+Osaka"
     },
-    // THAILAND - Additional
     {
-        id: 169,
-        name: "Jay Fai",
-        city: "Bangkok",
-        country: "Thailand",
-        address: "327 Maha Chai Rd, Samran Rat, Bangkok",
-        lat: 13.7515,
-        lng: 100.5015,
-        show: "Parts Unknown",
-        episode: "Bangkok",
-        cuisine: "Thai Street Food",
-        status: "open",
-        description: "Michelin-starred street food stall famous for crab omelette.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Jay+Fai+Bangkok"
-    },
-    {
-        id: 170,
+        id: 166,
         name: "Thip Samai",
         city: "Bangkok",
         country: "Thailand",
@@ -2860,72 +2658,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Thip+Samai+Bangkok"
     },
     {
-        id: 171,
-        name: "Krua Apsorn",
-        city: "Bangkok",
-        country: "Thailand",
-        address: "503-505 Samsen Rd, Wat Sommanat, Bangkok",
-        lat: 13.7649,
-        lng: 100.5027,
-        show: "No Reservations",
-        episode: "Thailand",
-        cuisine: "Thai",
-        status: "open",
-        description: "Former palace chef's restaurant serving royal Thai cuisine.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Krua+Apsorn+Bangkok"
-    },
-    // FRANCE - Additional
-    {
-        id: 172,
-        name: "L'Ami Jean",
-        city: "Paris",
-        country: "France",
-        address: "27 Rue Malar, 75007 Paris",
-        lat: 48.8592,
-        lng: 2.3044,
-        show: "No Reservations",
-        episode: "Paris",
-        cuisine: "Basque French",
-        status: "open",
-        description: "Lively Basque bistro known for generous portions and convivial atmosphere.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=L'Ami+Jean+Paris"
-    },
-    {
-        id: 173,
-        name: "Le Comptoir du Relais",
-        city: "Paris",
-        country: "France",
-        address: "9 Carrefour de l'Odéon, 75006 Paris",
-        lat: 48.8513,
-        lng: 2.3388,
-        show: "No Reservations",
-        episode: "Paris",
-        cuisine: "French Bistro",
-        status: "open",
-        description: "Yves Camdeborde's iconic bistro in Saint-Germain-des-Prés.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Le+Comptoir+du+Relais+Paris"
-    },
-    {
-        id: 174,
-        name: "Au Pied de Cochon",
-        city: "Paris",
-        country: "France",
-        address: "6 Rue Coquillière, 75001 Paris",
-        lat: 48.8638,
-        lng: 2.3419,
-        show: "No Reservations",
-        episode: "Paris",
-        cuisine: "French Brasserie",
-        status: "open",
-        description: "24-hour brasserie famous for pig's feet and onion soup, open since 1946.",
-        reservationUrl: "https://www.pieddecochon.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Au+Pied+de+Cochon+Paris"
-    },
-    {
-        id: 175,
+        id: 167,
         name: "L'Arpège",
         city: "Paris",
         country: "France",
@@ -2940,9 +2673,8 @@ const restaurants = [
         reservationUrl: "https://www.alain-passard.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=L'Arpège+Paris"
     },
-    // ITALY - Additional
     {
-        id: 176,
+        id: 168,
         name: "Da Felice",
         city: "Rome",
         country: "Italy",
@@ -2958,7 +2690,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Da+Felice+Rome"
     },
     {
-        id: 177,
+        id: 169,
         name: "Flavio al Velavevodetto",
         city: "Rome",
         country: "Italy",
@@ -2974,23 +2706,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Flavio+al+Velavevodetto+Rome"
     },
     {
-        id: 178,
-        name: "Osteria Francescana",
-        city: "Modena",
-        country: "Italy",
-        address: "Via Stella 22, 41121 Modena",
-        lat: 44.6471,
-        lng: 10.9259,
-        show: "Parts Unknown",
-        episode: "Emilia-Romagna",
-        cuisine: "Modern Italian",
-        status: "open",
-        description: "Massimo Bottura's 3-Michelin star restaurant. Ranked #1 in World's 50 Best.",
-        reservationUrl: "https://www.osteriafrancescana.it/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Osteria+Francescana+Modena"
-    },
-    {
-        id: 179,
+        id: 170,
         name: "Trattoria Aldina",
         city: "Modena",
         country: "Italy",
@@ -3006,7 +2722,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Trattoria+Aldina+Modena"
     },
     {
-        id: 180,
+        id: 171,
         name: "Da Vittorio",
         city: "Brusaporto",
         country: "Italy",
@@ -3021,9 +2737,8 @@ const restaurants = [
         reservationUrl: "https://www.davittorio.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Da+Vittorio+Brusaporto"
     },
-    // SPAIN - Additional
     {
-        id: 181,
+        id: 172,
         name: "Mugaritz",
         city: "San Sebastian",
         country: "Spain",
@@ -3039,7 +2754,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mugaritz+San+Sebastian"
     },
     {
-        id: 182,
+        id: 173,
         name: "Asador Etxebarri",
         city: "Axpe",
         country: "Spain",
@@ -3055,7 +2770,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Asador+Etxebarri+Axpe"
     },
     {
-        id: 183,
+        id: 174,
         name: "Bar Nestor",
         city: "San Sebastian",
         country: "Spain",
@@ -3071,7 +2786,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Nestor+San+Sebastian"
     },
     {
-        id: 184,
+        id: 175,
         name: "Casa Julio",
         city: "Madrid",
         country: "Spain",
@@ -3087,40 +2802,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Casa+Julio+Madrid"
     },
     {
-        id: 185,
-        name: "Mercado de San Miguel",
-        city: "Madrid",
-        country: "Spain",
-        address: "Plaza de San Miguel, 28005 Madrid",
-        lat: 40.4154,
-        lng: -3.7088,
-        show: "The Layover",
-        episode: "Madrid",
-        cuisine: "Market/Tapas",
-        status: "open",
-        description: "Historic covered market with gourmet food stalls.",
-        reservationUrl: "https://www.mercadodesanmiguel.es/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mercado+San+Miguel+Madrid"
-    },
-    // MEXICO - Additional
-    {
-        id: 186,
-        name: "Contramar",
-        city: "Mexico City",
-        country: "Mexico",
-        address: "Calle de Durango 200, Roma Norte, 06700 CDMX",
-        lat: 19.4187,
-        lng: -99.1623,
-        show: "Parts Unknown",
-        episode: "Mexico City",
-        cuisine: "Seafood",
-        status: "open",
-        description: "Iconic seafood restaurant famous for tuna tostadas and whole fish.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Contramar+Mexico+City"
-    },
-    {
-        id: 187,
+        id: 176,
         name: "Quintonil",
         city: "Mexico City",
         country: "Mexico",
@@ -3136,23 +2818,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Quintonil+Mexico+City"
     },
     {
-        id: 188,
-        name: "Pujol",
-        city: "Mexico City",
-        country: "Mexico",
-        address: "Tennyson 133, Polanco, 11550 CDMX",
-        lat: 19.4331,
-        lng: -99.1958,
-        show: "Parts Unknown",
-        episode: "Mexico City",
-        cuisine: "Contemporary Mexican",
-        status: "open",
-        description: "Enrique Olvera's world-renowned restaurant featuring mole madre.",
-        reservationUrl: "https://www.pujol.com.mx/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pujol+Mexico+City"
-    },
-    {
-        id: 189,
+        id: 177,
         name: "El Hidalguense",
         city: "Mexico City",
         country: "Mexico",
@@ -3168,7 +2834,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=El+Hidalguense+Mexico+City"
     },
     {
-        id: 190,
+        id: 178,
         name: "Tacos El Güero",
         city: "Oaxaca",
         country: "Mexico",
@@ -3183,57 +2849,8 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mercado+20+de+Noviembre+Oaxaca"
     },
-    // USA - Additional Cities
     {
-        id: 191,
-        name: "Franklin Barbecue",
-        city: "Austin",
-        country: "USA",
-        address: "900 E 11th St, Austin, TX 78702",
-        lat: 33.3762,
-        lng: -97.7431,
-        show: "Parts Unknown",
-        episode: "Texas Hill Country",
-        cuisine: "BBQ",
-        status: "open",
-        description: "Aaron Franklin's legendary BBQ. People line up for hours for brisket.",
-        reservationUrl: "https://franklinbbq.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Franklin+Barbecue+Austin"
-    },
-    {
-        id: 192,
-        name: "Uchi",
-        city: "Austin",
-        country: "USA",
-        address: "801 S Lamar Blvd, Austin, TX 78704",
-        lat: 30.2561,
-        lng: -97.7672,
-        show: "Parts Unknown",
-        episode: "Texas Hill Country",
-        cuisine: "Japanese",
-        status: "open",
-        description: "Tyson Cole's acclaimed sushi and Japanese restaurant.",
-        reservationUrl: "https://www.uchirestaurants.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Uchi+Austin"
-    },
-    {
-        id: 193,
-        name: "Swan Oyster Depot",
-        city: "San Francisco",
-        country: "USA",
-        address: "1517 Polk St, San Francisco, CA 94109",
-        lat: 37.7909,
-        lng: -122.4221,
-        show: "The Layover",
-        episode: "San Francisco",
-        cuisine: "Seafood",
-        status: "open",
-        description: "Historic seafood counter serving fresh oysters since 1912.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Swan+Oyster+Depot+San+Francisco"
-    },
-    {
-        id: 194,
+        id: 179,
         name: "Tartine Bakery",
         city: "San Francisco",
         country: "USA",
@@ -3249,7 +2866,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tartine+Bakery+San+Francisco"
     },
     {
-        id: 195,
+        id: 180,
         name: "The Slanted Door",
         city: "San Francisco",
         country: "USA",
@@ -3265,23 +2882,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Slanted+Door+San+Francisco"
     },
     {
-        id: 196,
-        name: "Gjelina",
-        city: "Los Angeles",
-        country: "USA",
-        address: "1429 Abbot Kinney Blvd, Venice, CA 90291",
-        lat: 33.9933,
-        lng: -118.4696,
-        show: "Parts Unknown",
-        episode: "Los Angeles",
-        cuisine: "California",
-        status: "open",
-        description: "Trendy Venice spot known for wood-fired pizzas and vegetables.",
-        reservationUrl: "https://www.gjelina.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Gjelina+Venice"
-    },
-    {
-        id: 197,
+        id: 181,
         name: "Sqirl",
         city: "Los Angeles",
         country: "USA",
@@ -3297,40 +2898,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Sqirl+Los+Angeles"
     },
     {
-        id: 198,
-        name: "Philippe The Original",
-        city: "Los Angeles",
-        country: "USA",
-        address: "1001 N Alameda St, Los Angeles, CA 90012",
-        lat: 34.0587,
-        lng: -118.2378,
-        show: "The Layover",
-        episode: "Los Angeles",
-        cuisine: "Deli",
-        status: "open",
-        description: "Claimant to inventing the French dip sandwich in 1918.",
-        reservationUrl: "https://www.philippes.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Philippe+The+Original+Los+Angeles"
-    },
-    // SOUTH KOREA - Additional
-    {
-        id: 199,
-        name: "Gwangjang Market",
-        city: "Seoul",
-        country: "South Korea",
-        address: "88 Changgyeonggung-ro, Seoul",
-        lat: 37.5701,
-        lng: 126.9996,
-        show: "Parts Unknown",
-        episode: "Korea",
-        cuisine: "Korean Street Food",
-        status: "open",
-        description: "Historic market famous for bindaetteok (mung bean pancakes) and mayak gimbap.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Gwangjang+Market+Seoul"
-    },
-    {
-        id: 200,
+        id: 182,
         name: "Noryangjin Fish Market",
         city: "Seoul",
         country: "South Korea",
@@ -3345,9 +2913,8 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Noryangjin+Fish+Market+Seoul"
     },
-    // CHINA - Additional
     {
-        id: 201,
+        id: 183,
         name: "Xi'an Famous Foods",
         city: "Xi'an",
         country: "China",
@@ -3363,23 +2930,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Xi'an+Famous+Foods+Xi'an"
     },
     {
-        id: 202,
-        name: "Din Tai Fung",
-        city: "Taipei",
-        country: "Taiwan",
-        address: "194 Xinyi Rd, Section 2, Taipei",
-        lat: 25.0333,
-        lng: 121.5430,
-        show: "No Reservations",
-        episode: "Taiwan",
-        cuisine: "Taiwanese",
-        status: "open",
-        description: "World-famous xiaolongbao (soup dumplings) restaurant.",
-        reservationUrl: "https://www.dintaifung.com.tw/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Din+Tai+Fung+Taipei"
-    },
-    {
-        id: 203,
+        id: 184,
         name: "Addiction Aquatic Development",
         city: "Taipei",
         country: "Taiwan",
@@ -3394,25 +2945,8 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Addiction+Aquatic+Development+Taipei"
     },
-    // LEBANON - Additional
     {
-        id: 204,
-        name: "Tawlet",
-        city: "Beirut",
-        country: "Lebanon",
-        address: "12 Naher St, Mar Mikhael, Beirut",
-        lat: 33.8958,
-        lng: 35.5237,
-        show: "Parts Unknown",
-        episode: "Beirut",
-        cuisine: "Lebanese",
-        status: "open",
-        description: "Farm-to-table restaurant featuring different regional cooks daily.",
-        reservationUrl: "https://www.tawletsoukeltayeb.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tawlet+Beirut"
-    },
-    {
-        id: 205,
+        id: 185,
         name: "Al Falamanki",
         city: "Beirut",
         country: "Lebanon",
@@ -3427,74 +2961,8 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Al+Falamanki+Beirut"
     },
-    // PERU - Additional
     {
-        id: 206,
-        name: "Central",
-        city: "Lima",
-        country: "Peru",
-        address: "Av. Pedro de Osma 301, Barranco, Lima",
-        lat: -12.1467,
-        lng: -77.0209,
-        show: "Parts Unknown",
-        episode: "Peru",
-        cuisine: "Peruvian Fine Dining",
-        status: "open",
-        description: "Virgilio Martínez's restaurant showcasing Peru's ecosystems. Ranked #1 in World's 50 Best 2023.",
-        reservationUrl: "https://centralrestaurante.com.pe/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Central+Lima"
-    },
-    {
-        id: 207,
-        name: "La Mar",
-        city: "Lima",
-        country: "Peru",
-        address: "Av. Mariscal La Mar 770, Miraflores, Lima",
-        lat: -12.1210,
-        lng: -77.0327,
-        show: "No Reservations",
-        episode: "Peru",
-        cuisine: "Cevicheria",
-        status: "open",
-        description: "Gastón Acurio's flagship cevicheria.",
-        reservationUrl: "https://www.lamarcebicheria.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Mar+Lima"
-    },
-    // BRAZIL - Additional
-    {
-        id: 208,
-        name: "D.O.M.",
-        city: "São Paulo",
-        country: "Brazil",
-        address: "Rua Barão de Capanema 549, São Paulo",
-        lat: -23.5629,
-        lng: -46.6678,
-        show: "No Reservations",
-        episode: "São Paulo",
-        cuisine: "Brazilian Fine Dining",
-        status: "open",
-        description: "Alex Atala's 2-Michelin star restaurant focusing on Amazonian ingredients.",
-        reservationUrl: "https://www.domrestaurante.com.br/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=D.O.M.+Sao+Paulo"
-    },
-    {
-        id: 209,
-        name: "Bar do Mané",
-        city: "São Paulo",
-        country: "Brazil",
-        address: "Rua Joaquim Antunes 138, São Paulo",
-        lat: -23.5683,
-        lng: -46.6828,
-        show: "Parts Unknown",
-        episode: "São Paulo",
-        cuisine: "Brazilian Bar",
-        status: "open",
-        description: "Traditional boteco (bar) serving cold beer and bar snacks.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+do+Mané+Sao+Paulo"
-    },
-    {
-        id: 210,
+        id: 186,
         name: "Leitaria da Quinta do Paço",
         city: "Rio de Janeiro",
         country: "Brazil",
@@ -3509,91 +2977,8 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Leitaria+da+Quinta+do+Paço+Rio"
     },
-    // ARGENTINA - Additional
     {
-        id: 211,
-        name: "Don Julio",
-        city: "Buenos Aires",
-        country: "Argentina",
-        address: "Guatemala 4699, Buenos Aires",
-        lat: -34.5871,
-        lng: -58.4274,
-        show: "Parts Unknown",
-        episode: "Buenos Aires",
-        cuisine: "Steakhouse",
-        status: "open",
-        description: "Legendary parrilla (steakhouse) in Palermo. Best steak in Buenos Aires.",
-        reservationUrl: "https://www.parrilladonjulio.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Don+Julio+Buenos+Aires"
-    },
-    {
-        id: 212,
-        name: "La Cabrera",
-        city: "Buenos Aires",
-        country: "Argentina",
-        address: "Cabrera 5127, Buenos Aires",
-        lat: -34.5869,
-        lng: -58.4302,
-        show: "No Reservations",
-        episode: "Buenos Aires",
-        cuisine: "Steakhouse",
-        status: "open",
-        description: "Popular parrilla known for huge portions and excellent meat.",
-        reservationUrl: "https://www.parrillaslacabrera.com.ar/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Cabrera+Buenos+Aires"
-    },
-    // MOROCCO - Additional
-    {
-        id: 213,
-        name: "Café Clock",
-        city: "Fes",
-        country: "Morocco",
-        address: "7 Derb el Magana, Fes",
-        lat: 34.0637,
-        lng: -4.9778,
-        show: "No Reservations",
-        episode: "Morocco",
-        cuisine: "Moroccan",
-        status: "open",
-        description: "Cultural café famous for camel burgers and live music.",
-        reservationUrl: "https://www.cafeclock.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Café+Clock+Fes"
-    },
-    {
-        id: 214,
-        name: "La Maison Arabe",
-        city: "Marrakech",
-        country: "Morocco",
-        address: "1 Derb Assehbe, Marrakech",
-        lat: 31.6295,
-        lng: -7.9811,
-        show: "Parts Unknown",
-        episode: "Tangier",
-        cuisine: "Moroccan Fine Dining",
-        status: "open",
-        description: "Historic riad turned luxury restaurant and hotel.",
-        reservationUrl: "https://www.lamaisonarabe.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Maison+Arabe+Marrakech"
-    },
-    // PORTUGAL - Additional
-    {
-        id: 215,
-        name: "Cervejaria Ramiro",
-        city: "Lisbon",
-        country: "Portugal",
-        address: "Av. Almirante Reis 1H, Lisbon",
-        lat: 38.7261,
-        lng: -9.1355,
-        show: "No Reservations",
-        episode: "Lisbon",
-        cuisine: "Seafood",
-        status: "open",
-        description: "Famous seafood restaurant. Order the prawns and the steak sandwich.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cervejaria+Ramiro+Lisbon"
-    },
-    {
-        id: 216,
+        id: 187,
         name: "Time Out Market",
         city: "Lisbon",
         country: "Portugal",
@@ -3608,25 +2993,8 @@ const restaurants = [
         reservationUrl: "https://www.timeoutmarket.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Time+Out+Market+Lisbon"
     },
-    // GREECE - New
     {
-        id: 217,
-        name: "Funky Gourmet",
-        city: "Athens",
-        country: "Greece",
-        address: "Paramythias 13 & Salaminos, Athens",
-        lat: 37.9790,
-        lng: 23.7273,
-        show: "Parts Unknown",
-        episode: "Greece",
-        cuisine: "Modern Greek",
-        status: "closed",
-        description: "2-Michelin star molecular gastronomy restaurant. Closed in 2020.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Funky+Gourmet+Athens"
-    },
-    {
-        id: 218,
+        id: 188,
         name: "Ta Karamanlidika tou Fani",
         city: "Athens",
         country: "Greece",
@@ -3641,58 +3009,8 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Ta+Karamanlidika+Athens"
     },
-    // DENMARK - New
     {
-        id: 219,
-        name: "Noma",
-        city: "Copenhagen",
-        country: "Denmark",
-        address: "Refshalevej 96, Copenhagen",
-        lat: 55.6955,
-        lng: 12.6092,
-        show: "Parts Unknown",
-        episode: "Copenhagen",
-        cuisine: "Nordic Fine Dining",
-        status: "closed",
-        description: "René Redzepi's legendary 3-Michelin star restaurant. Closed permanently in 2024.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Noma+Copenhagen"
-    },
-    {
-        id: 220,
-        name: "Relæ",
-        city: "Copenhagen",
-        country: "Denmark",
-        address: "Jægersborggade 41, Copenhagen",
-        lat: 55.6939,
-        lng: 12.5528,
-        show: "Parts Unknown",
-        episode: "Copenhagen",
-        cuisine: "Nordic",
-        status: "closed",
-        description: "Christian Puglisi's Michelin-starred restaurant. Closed in 2020.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Relæ+Copenhagen"
-    },
-    // AUSTRALIA - Additional
-    {
-        id: 221,
-        name: "Quay",
-        city: "Sydney",
-        country: "Australia",
-        address: "Upper Level, Overseas Passenger Terminal, Sydney",
-        lat: -33.8587,
-        lng: 151.2140,
-        show: "No Reservations",
-        episode: "Australia",
-        cuisine: "Fine Dining",
-        status: "open",
-        description: "Peter Gilmore's 3-hat restaurant with harbor views.",
-        reservationUrl: "https://www.quay.com.au/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Quay+Sydney"
-    },
-    {
-        id: 222,
+        id: 189,
         name: "Rockpool Bar & Grill",
         city: "Sydney",
         country: "Australia",
@@ -3708,40 +3026,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Rockpool+Bar+Grill+Sydney"
     },
     {
-        id: 223,
-        name: "Attica",
-        city: "Melbourne",
-        country: "Australia",
-        address: "74 Glen Eira Rd, Ripponlea VIC",
-        lat: -37.8729,
-        lng: 145.0158,
-        show: "Parts Unknown",
-        episode: "Melbourne",
-        cuisine: "Modern Australian",
-        status: "open",
-        description: "Ben Shewry's acclaimed restaurant featuring native Australian ingredients.",
-        reservationUrl: "https://www.attica.com.au/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Attica+Melbourne"
-    },
-    // SINGAPORE - Additional
-    {
-        id: 224,
-        name: "Hill Street Tai Hwa Pork Noodle",
-        city: "Singapore",
-        country: "Singapore",
-        address: "466 Crawford Ln, #01-12, Singapore",
-        lat: 1.3063,
-        lng: 103.8612,
-        show: "Parts Unknown",
-        episode: "Singapore",
-        cuisine: "Singaporean",
-        status: "open",
-        description: "World's cheapest Michelin-starred meal. Bak chor mee (minced meat noodles).",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Hill+Street+Tai+Hwa+Singapore"
-    },
-    {
-        id: 225,
+        id: 190,
         name: "Hong Kong Soya Sauce Chicken Rice and Noodle",
         city: "Singapore",
         country: "Singapore",
@@ -3756,41 +3041,8 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Hong+Kong+Soya+Sauce+Chicken+Singapore"
     },
-    // INDIA - Additional
     {
-        id: 226,
-        name: "Indian Accent",
-        city: "New Delhi",
-        country: "India",
-        address: "The Lodhi Hotel, Lodhi Rd, New Delhi",
-        lat: 28.5920,
-        lng: 77.2273,
-        show: "Parts Unknown",
-        episode: "Punjab",
-        cuisine: "Modern Indian",
-        status: "open",
-        description: "Manish Mehrotra's inventive modern Indian cuisine.",
-        reservationUrl: "https://www.indianaccent.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Indian+Accent+New+Delhi"
-    },
-    {
-        id: 227,
-        name: "Karim's",
-        city: "New Delhi",
-        country: "India",
-        address: "16 Gali Kababian, Jama Masjid, Delhi",
-        lat: 28.6507,
-        lng: 77.2334,
-        show: "Parts Unknown",
-        episode: "Punjab",
-        cuisine: "Mughlai",
-        status: "open",
-        description: "Legendary Mughlai restaurant near Jama Masjid since 1913.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Karim's+Delhi"
-    },
-    {
-        id: 228,
+        id: 191,
         name: "Trishna",
         city: "Mumbai",
         country: "India",
@@ -3805,58 +3057,8 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Trishna+Mumbai"
     },
-    // TURKEY - Additional
     {
-        id: 229,
-        name: "Çiya Sofrası",
-        city: "Istanbul",
-        country: "Turkey",
-        address: "Caferağa Mahallesi, Güneşli Bahçe Sk. No:43, Istanbul",
-        lat: 40.9875,
-        lng: 29.0253,
-        show: "No Reservations",
-        episode: "Istanbul",
-        cuisine: "Turkish",
-        status: "open",
-        description: "Restaurant showcasing regional Anatolean dishes.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Çiya+Sofrası+Istanbul"
-    },
-    {
-        id: 230,
-        name: "Karaköy Lokantası",
-        city: "Istanbul",
-        country: "Turkey",
-        address: "Kemankeş Karamustafa Paşa, Kemankeş Cd. No:37, Istanbul",
-        lat: 41.0244,
-        lng: 28.9740,
-        show: "Parts Unknown",
-        episode: "Istanbul",
-        cuisine: "Turkish",
-        status: "open",
-        description: "Modern take on traditional Turkish home cooking.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Karaköy+Lokantası+Istanbul"
-    },
-    // IRAN - New
-    {
-        id: 231,
-        name: "Moslem Restaurant",
-        city: "Tehran",
-        country: "Iran",
-        address: "Naser Khosrow Ave, Tehran",
-        lat: 35.6747,
-        lng: 51.4247,
-        show: "Parts Unknown",
-        episode: "Iran",
-        cuisine: "Persian",
-        status: "open",
-        description: "Famous for tahdig (crispy rice) and traditional Persian stews.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Moslem+Restaurant+Tehran"
-    },
-    {
-        id: 232,
+        id: 192,
         name: "Darband Restaurants",
         city: "Tehran",
         country: "Iran",
@@ -3871,9 +3073,8 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Darband+Tehran"
     },
-    // COLOMBIA - Additional
     {
-        id: 233,
+        id: 193,
         name: "Leo Cocina y Cava",
         city: "Bogotá",
         country: "Colombia",
@@ -3889,7 +3090,7 @@ const restaurants = [
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Leo+Cocina+y+Cava+Bogota"
     },
     {
-        id: 234,
+        id: 194,
         name: "Andrés Carne de Res",
         city: "Chía",
         country: "Colombia",
@@ -3904,25 +3105,8 @@ const restaurants = [
         reservationUrl: "https://www.andrescarnederes.com/",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Andrés+Carne+de+Res+Chia"
     },
-    // ETHIOPIA - Additional
     {
-        id: 235,
-        name: "Yod Abyssinia",
-        city: "Addis Ababa",
-        country: "Ethiopia",
-        address: "Bole Rd, Addis Ababa",
-        lat: 9.0104,
-        lng: 38.7625,
-        show: "Parts Unknown",
-        episode: "Ethiopia",
-        cuisine: "Ethiopian",
-        status: "open",
-        description: "Traditional Ethiopian restaurant with live music and cultural shows.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Yod+Abyssinia+Addis+Ababa"
-    },
-    {
-        id: 236,
+        id: 195,
         name: "2000 Habesha",
         city: "Addis Ababa",
         country: "Ethiopia",
@@ -3937,25 +3121,8 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=2000+Habesha+Addis+Ababa"
     },
-    // JAMAICA - New
     {
-        id: 237,
-        name: "Scotchies",
-        city: "Montego Bay",
-        country: "Jamaica",
-        address: "Coral Gardens, Montego Bay",
-        lat: 18.4762,
-        lng: -77.9514,
-        show: "No Reservations",
-        episode: "Jamaica",
-        cuisine: "Jerk",
-        status: "open",
-        description: "Famous roadside jerk stand serving authentic jerk chicken and pork.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Scotchies+Montego+Bay"
-    },
-    {
-        id: 238,
+        id: 196,
         name: "Glory's Rendezvous",
         city: "Port Antonio",
         country: "Jamaica",
@@ -3970,9 +3137,8 @@ const restaurants = [
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Glory's+Port+Antonio"
     },
-    // TRINIDAD - New
     {
-        id: 239,
+        id: 197,
         name: "Richard's Bake & Shark",
         city: "Maracas Bay",
         country: "Trinidad and Tobago",
@@ -3986,21 +3152,5 @@ const restaurants = [
         description: "Beach shack famous for bake and shark sandwich.",
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Richard's+Bake+Shark+Maracas"
-    },
-    {
-        id: 240,
-        name: "Patraj",
-        city: "Port of Spain",
-        country: "Trinidad and Tobago",
-        address: "Ariapita Ave, Port of Spain",
-        lat: 10.6695,
-        lng: -61.5183,
-        show: "Parts Unknown",
-        episode: "Trinidad",
-        cuisine: "Trinidadian",
-        status: "open",
-        description: "Popular roti shop serving doubles and curry.",
-        reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Patraj+Port+of+Spain"
     }
 ];
