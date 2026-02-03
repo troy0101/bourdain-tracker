@@ -16,7 +16,8 @@ const restaurants = [
         description: "The legendary brasserie where Bourdain worked as executive chef. Sadly closed in 2017.",
         reservationUrl: "",
         googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Les+Halles+New+York",
-        logoUrl: ""
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 2,
@@ -32,7 +33,8 @@ const restaurants = [
         status: "open",
         description: "Legendary deli established in 1888, famous for pastrami sandwiches.",
         reservationUrl: "https://katzsdelicatessen.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Katz's+Delicatessen+New+York"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Katz's+Delicatessen+New+York",
+        logoUrl: "https://images.unsplash.com/photo-1619740455993-9e0035fcf77e?w=800"
     },
     {
         id: 3,
@@ -48,7 +50,8 @@ const restaurants = [
         status: "open",
         description: "David Chang's innovative noodle bar that helped launch his culinary empire.",
         reservationUrl: "https://www.momofuku.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Momofuku+Noodle+Bar+New+York"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Momofuku+Noodle+Bar+New+York",
+        logoUrl: "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=800"
     },
     {
         id: 4,
@@ -64,7 +67,8 @@ const restaurants = [
         status: "open",
         description: "Legendary Brooklyn steakhouse since 1887. Cash only, no reservations without connections.",
         reservationUrl: "https://peterluger.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Peter+Luger+Brooklyn"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Peter+Luger+Brooklyn",
+        logoUrl: "https://images.unsplash.com/photo-1558030006-450675393462?w=800"
     },
     {
         id: 5,
@@ -80,7 +84,8 @@ const restaurants = [
         status: "open",
         description: "Famous for soup dumplings (xiaolongbao) in Chinatown.",
         reservationUrl: "http://www.joeshanghairestaurants.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Joe's+Shanghai+Chinatown"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Joe's+Shanghai+Chinatown",
+        logoUrl: "https://images.unsplash.com/photo-1626074353765-517a65ea7f5a?w=800"
     },
     {
         id: 6,
@@ -96,7 +101,8 @@ const restaurants = [
         status: "open",
         description: "Dom DeMarco's legendary pizzeria. He makes every pie himself.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Di+Fara+Pizza+Brooklyn"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Di+Fara+Pizza+Brooklyn",
+        logoUrl: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800"
     },
     {
         id: 7,
@@ -112,7 +118,8 @@ const restaurants = [
         status: "open",
         description: "Historic appetizing store specializing in smoked fish, caviar, and bagels since 1914.",
         reservationUrl: "https://www.russanddaughters.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Russ+Daughters+New+York"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Russ+Daughters+New+York",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 8,
@@ -128,7 +135,8 @@ const restaurants = [
         status: "open",
         description: "Famous for the meal Bourdain shared with President Obama. The 'Obama-Bourdain table' is now preserved.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bun+Cha+Huong+Lien+Hanoi"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bun+Cha+Huong+Lien+Hanoi",
+        logoUrl: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800"
     },
     {
         id: 9,
@@ -144,7 +152,8 @@ const restaurants = [
         status: "open",
         description: "Traditional Vietnamese pho restaurant serving authentic Hanoi-style noodle soup.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pho+Gia+Truyen+Hanoi"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pho+Gia+Truyen+Hanoi",
+        logoUrl: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800"
     },
     {
         id: 10,
@@ -160,7 +169,8 @@ const restaurants = [
         status: "open",
         description: "Popular spot for Vietnamese banh mi sandwiches.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Banh+Mi+25+Hanoi"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Banh+Mi+25+Hanoi",
+        logoUrl: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800"
     },
     {
         id: 11,
@@ -176,7 +186,8 @@ const restaurants = [
         status: "open",
         description: "Three Michelin-starred sushi restaurant run by Jiro Ono. Featured in 'Jiro Dreams of Sushi'.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Sukiyabashi+Jiro+Tokyo"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Sukiyabashi+Jiro+Tokyo",
+        logoUrl: "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800"
     },
     {
         id: 12,
@@ -192,7 +203,8 @@ const restaurants = [
         status: "closed",
         description: "Historic wholesale fish market. Moved to Toyosu in 2018, but outer market remains.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tsukiji+Fish+Market+Tokyo"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tsukiji+Fish+Market+Tokyo",
+        logoUrl: "https://images.unsplash.com/photo-1559737558-2f5a35f4523d?w=800"
     },
     {
         id: 13,
@@ -208,7 +220,8 @@ const restaurants = [
         status: "open",
         description: "Unique ramen experience with individual booths for focused eating.",
         reservationUrl: "https://en.ichiran.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Ichiran+Ramen+Tokyo"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Ichiran+Ramen+Tokyo",
+        logoUrl: "https://images.unsplash.com/photo-1591814468924-caf88d1232e1?w=800"
     },
     {
         id: 14,
@@ -224,7 +237,8 @@ const restaurants = [
         status: "open",
         description: "Michelin-starred ramen shop known for tantanmen.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Nakiryu+Ramen+Tokyo"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Nakiryu+Ramen+Tokyo",
+        logoUrl: "https://images.unsplash.com/photo-1591814468924-caf88d1232e1?w=800"
     },
     {
         id: 15,
@@ -240,7 +254,8 @@ const restaurants = [
         status: "open",
         description: "Historic Parisian brasserie opened in 1927, known for its Art Deco interior.",
         reservationUrl: "https://lacoupole-paris.com/en/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Coupole+Paris"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Coupole+Paris",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 16,
@@ -256,7 +271,8 @@ const restaurants = [
         status: "open",
         description: "Yves Camdeborde's acclaimed bistro in Saint-Germain-des-Prés.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Le+Comptoir+du+Relais+Paris"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Le+Comptoir+du+Relais+Paris",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 17,
@@ -272,7 +288,8 @@ const restaurants = [
         status: "open",
         description: "Lively Basque bistro near the Eiffel Tower.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=L'Ami+Jean+Paris"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=L'Ami+Jean+Paris",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 18,
@@ -288,7 +305,8 @@ const restaurants = [
         status: "open",
         description: "Open 24/7 since 1946, famous for pig's feet and onion soup.",
         reservationUrl: "https://www.pieddecochon.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Au+Pied+de+Cochon+Paris"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Au+Pied+de+Cochon+Paris",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 19,
@@ -304,7 +322,8 @@ const restaurants = [
         status: "open",
         description: "Iconic cafe famous for beignets and chicory coffee. Open since 1862.",
         reservationUrl: "https://shop.cafedumonde.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cafe+du+Monde+New+Orleans"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cafe+du+Monde+New+Orleans",
+        logoUrl: "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800"
     },
     {
         id: 20,
@@ -320,7 +339,8 @@ const restaurants = [
         status: "open",
         description: "Historic restaurant in the Garden District since 1893.",
         reservationUrl: "https://www.commanderspalace.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Commander's+Palace+New+Orleans"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Commander's+Palace+New+Orleans",
+        logoUrl: "https://images.unsplash.com/photo-1555126634-323283e090fa?w=800"
     },
     {
         id: 21,
@@ -336,7 +356,8 @@ const restaurants = [
         status: "open",
         description: "Family-owned po'boy shop since 1918.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Domilise's+Po-Boy+New+Orleans"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Domilise's+Po-Boy+New+Orleans",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 22,
@@ -352,7 +373,8 @@ const restaurants = [
         status: "open",
         description: "Famous for what many call the best fried chicken in America.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Willie+Mae's+Scotch+House+New+Orleans"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Willie+Mae's+Scotch+House+New+Orleans",
+        logoUrl: "https://images.unsplash.com/photo-1583892061893-03f2dcf2d010?w=800"
     },
     {
         id: 23,
@@ -368,7 +390,8 @@ const restaurants = [
         status: "open",
         description: "Chef Donald Link's celebration of Cajun cuisine.",
         reservationUrl: "https://www.cochonrestaurant.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cochon+New+Orleans"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cochon+New+Orleans",
+        logoUrl: "https://images.unsplash.com/photo-1555126634-323283e090fa?w=800"
     },
     {
         id: 24,
@@ -384,7 +407,8 @@ const restaurants = [
         status: "open",
         description: "Award-winning BBQ joint. People line up for hours for their brisket.",
         reservationUrl: "https://franklinbbq.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Franklin+Barbecue+Austin"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Franklin+Barbecue+Austin",
+        logoUrl: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800"
     },
     {
         id: 25,
@@ -400,7 +424,8 @@ const restaurants = [
         status: "open",
         description: "Top-tier Austin barbecue with excellent brisket and ribs.",
         reservationUrl: "https://www.labarbecue.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Barbecue+Austin"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Barbecue+Austin",
+        logoUrl: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800"
     },
     {
         id: 26,
@@ -416,7 +441,8 @@ const restaurants = [
         status: "open",
         description: "Austin taco chain known for creative flavor combinations.",
         reservationUrl: "https://torchystacos.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Torchy's+Tacos+Austin"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Torchy's+Tacos+Austin",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 27,
@@ -432,7 +458,8 @@ const restaurants = [
         status: "open",
         description: "Chef Tyson Cole's acclaimed sushi restaurant.",
         reservationUrl: "https://uchiaustin.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Uchi+Austin"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Uchi+Austin",
+        logoUrl: "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800"
     },
     {
         id: 28,
@@ -448,7 +475,8 @@ const restaurants = [
         status: "closed",
         description: "Legendary restaurant by Ferran Adrià. Closed in 2011, now a culinary foundation.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=El+Bulli+Roses+Spain"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=El+Bulli+Roses+Spain",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 29,
@@ -464,7 +492,8 @@ const restaurants = [
         status: "open",
         description: "Historic covered market with tapas stands and gourmet food stalls.",
         reservationUrl: "https://mercadodesanmiguel.es/en/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mercado+de+San+Miguel+Madrid"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mercado+de+San+Miguel+Madrid",
+        logoUrl: "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800"
     },
     {
         id: 30,
@@ -480,7 +509,8 @@ const restaurants = [
         status: "open",
         description: "Albert Adrià's innovative tapas bar.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tickets+Bar+Barcelona"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tickets+Bar+Barcelona",
+        logoUrl: "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800"
     },
     {
         id: 31,
@@ -496,7 +526,8 @@ const restaurants = [
         status: "open",
         description: "Legendary tapas bar, no reservations, always packed.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cal+Pep+Barcelona"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cal+Pep+Barcelona",
+        logoUrl: "https://images.unsplash.com/photo-1559737558-2f5a35f4523d?w=800"
     },
     {
         id: 32,
@@ -512,7 +543,8 @@ const restaurants = [
         status: "open",
         description: "Famous for huevos rotos (broken eggs). A Madrid institution since 1974.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Casa+Lucio+Madrid"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Casa+Lucio+Madrid",
+        logoUrl: "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800"
     },
     {
         id: 33,
@@ -528,7 +560,8 @@ const restaurants = [
         status: "open",
         description: "Massimo Bottura's three Michelin-starred restaurant, ranked #1 in the world.",
         reservationUrl: "https://www.osteriafrancescana.it/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Osteria+Francescana+Modena"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Osteria+Francescana+Modena",
+        logoUrl: "https://images.unsplash.com/photo-1595295333158-4742f28fbd85?w=800"
     },
     {
         id: 34,
@@ -544,7 +577,8 @@ const restaurants = [
         status: "open",
         description: "Traditional Roman trattoria beloved by locals.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Trattoria+da+Cesare+al+Casaletto+Rome"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Trattoria+da+Cesare+al+Casaletto+Rome",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 35,
@@ -560,7 +594,8 @@ const restaurants = [
         status: "open",
         description: "Historic pizzeria since 1870, only makes margherita and marinara.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pizzeria+Da+Michele+Naples"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pizzeria+Da+Michele+Naples",
+        logoUrl: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800"
     },
     {
         id: 36,
@@ -576,7 +611,8 @@ const restaurants = [
         status: "open",
         description: "Tiny trattoria in Trastevere serving classic Roman dishes.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Da+Enzo+al+29+Rome"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Da+Enzo+al+29+Rome",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 37,
@@ -592,7 +628,8 @@ const restaurants = [
         status: "open",
         description: "Opened in 1738, considered the world's first pizzeria.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Antica+Pizzeria+Port'Alba+Naples"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Antica+Pizzeria+Port'Alba+Naples",
+        logoUrl: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800"
     },
     {
         id: 38,
@@ -608,7 +645,8 @@ const restaurants = [
         status: "open",
         description: "Southern Italian restaurant focusing on Campania cuisine and Neapolitan pizza.",
         reservationUrl: "https://www.a16pizza.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=A16+San+Francisco"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=A16+San+Francisco",
+        logoUrl: "https://images.unsplash.com/photo-1595295333158-4742f28fbd85?w=800"
     },
     {
         id: 39,
@@ -624,7 +662,8 @@ const restaurants = [
         status: "open",
         description: "Iconic seafood counter since 1912. Cash only, no reservations.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Swan+Oyster+Depot+San+Francisco"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Swan+Oyster+Depot+San+Francisco",
+        logoUrl: "https://images.unsplash.com/photo-1559737558-2f5a35f4523d?w=800"
     },
     {
         id: 40,
@@ -640,7 +679,8 @@ const restaurants = [
         status: "open",
         description: "Venice hotspot known for wood-fired pizzas and vegetable dishes.",
         reservationUrl: "https://www.gjelina.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Gjelina+Venice"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Gjelina+Venice",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 41,
@@ -656,7 +696,8 @@ const restaurants = [
         status: "open",
         description: "Claimed originator of the French dip sandwich since 1908.",
         reservationUrl: "https://www.philippes.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Philippe+The+Original+Los+Angeles"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Philippe+The+Original+Los+Angeles",
+        logoUrl: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800"
     },
     {
         id: 42,
@@ -672,7 +713,8 @@ const restaurants = [
         status: "open",
         description: "Two Michelin-starred seafood restaurant by Chef Michael Cimarusti.",
         reservationUrl: "https://providencela.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Providence+Los+Angeles"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Providence+Los+Angeles",
+        logoUrl: "https://images.unsplash.com/photo-1559737558-2f5a35f4523d?w=800"
     },
     {
         id: 43,
@@ -688,7 +730,8 @@ const restaurants = [
         status: "closed",
         description: "Andy Ricker's acclaimed Thai restaurant. Portland location closed in 2020.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pok+Pok+Portland"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pok+Pok+Portland",
+        logoUrl: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800"
     },
     {
         id: 44,
@@ -704,7 +747,8 @@ const restaurants = [
         status: "open",
         description: "Gabriel Rucker's adventurous French-inspired restaurant.",
         reservationUrl: "https://www.lepigeon.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Le+Pigeon+Portland"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Le+Pigeon+Portland",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 45,
@@ -720,7 +764,8 @@ const restaurants = [
         status: "open",
         description: "Quirky donut shop with unusual flavors and pink boxes.",
         reservationUrl: "https://www.voodoodoughnut.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Voodoo+Doughnut+Portland"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Voodoo+Doughnut+Portland",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 46,
@@ -736,7 +781,8 @@ const restaurants = [
         status: "open",
         description: "Fergus Henderson's nose-to-tail restaurant. A Bourdain favorite.",
         reservationUrl: "https://www.stjohnrestaurant.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=St+John+London"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=St+John+London",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 47,
@@ -752,7 +798,8 @@ const restaurants = [
         status: "open",
         description: "Historic Soho restaurant relaunched by the Barrafina team.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Quo+Vadis+London"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Quo+Vadis+London",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 48,
@@ -768,7 +815,8 @@ const restaurants = [
         status: "open",
         description: "Legendary Pakistani restaurant in Whitechapel, famous for lamb chops.",
         reservationUrl: "https://www.tayyabs.co.uk/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tayyabs+London"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tayyabs+London",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 49,
@@ -784,7 +832,8 @@ const restaurants = [
         status: "open",
         description: "Grand cafe-restaurant in a former car showroom.",
         reservationUrl: "https://www.thewolseley.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Wolseley+London"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Wolseley+London",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 50,
@@ -800,7 +849,8 @@ const restaurants = [
         status: "open",
         description: "Michelin-starred street food, famous for crab omelet. Chef wears ski goggles while cooking.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Jay+Fai+Bangkok"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Jay+Fai+Bangkok",
+        logoUrl: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800"
     },
     {
         id: 51,
@@ -816,7 +866,8 @@ const restaurants = [
         status: "closed",
         description: "David Thompson's acclaimed Thai restaurant. Closed in 2018.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Nahm+Bangkok"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Nahm+Bangkok",
+        logoUrl: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800"
     },
     {
         id: 52,
@@ -832,7 +883,8 @@ const restaurants = [
         status: "open",
         description: "Royal Thai cuisine served in a casual setting.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Krua+Apsorn+Bangkok"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Krua+Apsorn+Bangkok",
+        logoUrl: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800"
     },
     {
         id: 53,
@@ -848,7 +900,8 @@ const restaurants = [
         status: "open",
         description: "Enrique Olvera's acclaimed restaurant, one of the world's 50 best.",
         reservationUrl: "https://pujol.com.mx/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pujol+Mexico+City"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pujol+Mexico+City",
+        logoUrl: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800"
     },
     {
         id: 54,
@@ -864,7 +917,8 @@ const restaurants = [
         status: "open",
         description: "Traditional Mexican breakfast and classics since 1969.",
         reservationUrl: "https://www.restauranteelcardenal.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=El+Cardenal+Mexico+City"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=El+Cardenal+Mexico+City",
+        logoUrl: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800"
     },
     {
         id: 55,
@@ -880,7 +934,8 @@ const restaurants = [
         status: "open",
         description: "Beloved seafood restaurant famous for whole grilled fish.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Contramar+Mexico+City"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Contramar+Mexico+City",
+        logoUrl: "https://images.unsplash.com/photo-1559737558-2f5a35f4523d?w=800"
     },
     {
         id: 56,
@@ -896,7 +951,8 @@ const restaurants = [
         status: "open",
         description: "The world's cheapest Michelin-starred restaurant.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tim+Ho+Wan+Hong+Kong"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tim+Ho+Wan+Hong+Kong",
+        logoUrl: "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=800"
     },
     {
         id: 57,
@@ -912,7 +968,8 @@ const restaurants = [
         status: "open",
         description: "Famous for roast goose, a Hong Kong institution since 1942.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Yung+Kee+Restaurant+Hong+Kong"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Yung+Kee+Restaurant+Hong+Kong",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 58,
@@ -928,7 +985,8 @@ const restaurants = [
         status: "open",
         description: "Traditional Cantonese restaurant famous for snake soup.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Ser+Wong+Fun+Hong+Kong"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Ser+Wong+Fun+Hong+Kong",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 59,
@@ -944,7 +1002,8 @@ const restaurants = [
         status: "open",
         description: "Southern institution serving breakfast 24/7. Bourdain loved the hashbrowns.",
         reservationUrl: "https://www.wafflehouse.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Waffle+House+Atlanta"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Waffle+House+Atlanta",
+        logoUrl: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800"
     },
     {
         id: 60,
@@ -960,7 +1019,8 @@ const restaurants = [
         status: "open",
         description: "Frank Stitt's acclaimed Southern fine dining restaurant.",
         reservationUrl: "https://www.highlandsbarandgrill.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Highlands+Bar+and+Grill+Birmingham"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Highlands+Bar+and+Grill+Birmingham",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 61,
@@ -976,7 +1036,8 @@ const restaurants = [
         status: "open",
         description: "Blues and barbecue in a backyard shack setting.",
         reservationUrl: "https://www.theshedbbq.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Shed+BBQ+Ocean+Springs"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Shed+BBQ+Ocean+Springs",
+        logoUrl: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800"
     },
     {
         id: 62,
@@ -992,7 +1053,8 @@ const restaurants = [
         status: "open",
         description: "Legendary Montreal smoked meat deli since 1928.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Schwartz's+Deli+Montreal"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Schwartz's+Deli+Montreal",
+        logoUrl: "https://images.unsplash.com/photo-1619740455993-9e0035fcf77e?w=800"
     },
     {
         id: 63,
@@ -1008,7 +1070,8 @@ const restaurants = [
         status: "open",
         description: "David McMillan and Frédéric Morin's acclaimed restaurant.",
         reservationUrl: "https://www.joebeef.ca/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Joe+Beef+Montreal"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Joe+Beef+Montreal",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 64,
@@ -1024,7 +1087,8 @@ const restaurants = [
         status: "open",
         description: "Martin Picard's decadent Québécois cuisine, famous for foie gras poutine.",
         reservationUrl: "https://www.aupieddecochon.ca/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Au+Pied+de+Cochon+Montreal"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Au+Pied+de+Cochon+Montreal",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 65,
@@ -1040,7 +1104,8 @@ const restaurants = [
         status: "open",
         description: "First street food stall to receive a Michelin star, famous for soy sauce chicken.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Hawker+Chan+Singapore"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Hawker+Chan+Singapore",
+        logoUrl: "https://images.unsplash.com/photo-1626074353765-517a65ea7f5a?w=800"
     },
     {
         id: 66,
@@ -1056,7 +1121,8 @@ const restaurants = [
         status: "open",
         description: "Famous for Katong laksa, a spicy coconut curry noodle soup.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=328+Katong+Laksa+Singapore"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=328+Katong+Laksa+Singapore",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 67,
@@ -1072,7 +1138,8 @@ const restaurants = [
         status: "open",
         description: "Michelin-starred hawker stall famous for bak chor mee (minced pork noodles).",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Hill+Street+Tai+Hwa+Pork+Noodle+Singapore"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Hill+Street+Tai+Hwa+Pork+Noodle+Singapore",
+        logoUrl: "https://images.unsplash.com/photo-1626074353765-517a65ea7f5a?w=800"
     },
     {
         id: 68,
@@ -1088,7 +1155,8 @@ const restaurants = [
         status: "open",
         description: "Historic market with food stalls serving bindaetteok, mayak gimbap, and more.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Gwangjang+Market+Seoul"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Gwangjang+Market+Seoul",
+        logoUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800"
     },
     {
         id: 69,
@@ -1104,7 +1172,8 @@ const restaurants = [
         status: "open",
         description: "High-quality Korean BBQ in Itaewon, popular with locals and visitors.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Maple+Tree+House+Seoul"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Maple+Tree+House+Seoul",
+        logoUrl: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800"
     },
     {
         id: 70,
@@ -1120,7 +1189,8 @@ const restaurants = [
         status: "open",
         description: "Famous for kalguksu (hand-cut noodle soup) and mandu (dumplings).",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Myeongdong+Kyoja+Seoul"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Myeongdong+Kyoja+Seoul",
+        logoUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800"
     },
     {
         id: 71,
@@ -1136,7 +1206,8 @@ const restaurants = [
         status: "open",
         description: "Virgilio Martínez's acclaimed restaurant, ranked among the world's best.",
         reservationUrl: "https://centralrestaurante.com.pe/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Central+Lima"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Central+Lima",
+        logoUrl: "https://images.unsplash.com/photo-1559847844-5315695dadae?w=800"
     },
     {
         id: 72,
@@ -1152,7 +1223,8 @@ const restaurants = [
         status: "open",
         description: "Gastón Acurio's popular cevicheria.",
         reservationUrl: "https://www.lamarcebicheria.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Mar+Lima"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Mar+Lima",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 73,
@@ -1168,7 +1240,8 @@ const restaurants = [
         status: "open",
         description: "Local market with fresh produce and ceviche stands.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mercado+de+Surquillo+Lima"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mercado+de+Surquillo+Lima",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 74,
@@ -1184,7 +1257,8 @@ const restaurants = [
         status: "open",
         description: "Stephanie Izard's award-winning restaurant in the West Loop.",
         reservationUrl: "https://www.girlandthegoat.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Girl+The+Goat+Chicago"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Girl+The+Goat+Chicago",
+        logoUrl: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800"
     },
     {
         id: 75,
@@ -1200,7 +1274,8 @@ const restaurants = [
         status: "open",
         description: "Deep dish pizza with caramelized cheese crust.",
         reservationUrl: "https://pequodspizza.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pequod's+Pizza+Chicago"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pequod's+Pizza+Chicago",
+        logoUrl: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800"
     },
     {
         id: 76,
@@ -1216,7 +1291,8 @@ const restaurants = [
         status: "open",
         description: "Grant Achatz's three Michelin-starred modernist restaurant.",
         reservationUrl: "https://www.alinearestaurant.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Alinea+Chicago"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Alinea+Chicago",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 77,
@@ -1232,7 +1308,8 @@ const restaurants = [
         status: "open",
         description: "Famous for what many call Chicago's best burger.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Au+Cheval+Chicago"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Au+Cheval+Chicago",
+        logoUrl: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800"
     },
     {
         id: 78,
@@ -1248,7 +1325,8 @@ const restaurants = [
         status: "open",
         description: "Alex Atala's two Michelin-starred restaurant showcasing Brazilian ingredients.",
         reservationUrl: "https://www.domrestaurante.com.br/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=D.O.M.+Sao+Paulo"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=D.O.M.+Sao+Paulo",
+        logoUrl: "https://images.unsplash.com/photo-1546039907-7fa05f864c02?w=800"
     },
     {
         id: 79,
@@ -1264,7 +1342,8 @@ const restaurants = [
         status: "open",
         description: "Traditional boteco serving cold beer and Brazilian bar snacks.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+do+Mané+Sao+Paulo"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+do+Mané+Sao+Paulo",
+        logoUrl: "https://images.unsplash.com/photo-1546039907-7fa05f864c02?w=800"
     },
     {
         id: 80,
@@ -1280,7 +1359,8 @@ const restaurants = [
         status: "open",
         description: "Historic cafe and confectionery since 1894 with Art Nouveau decor.",
         reservationUrl: "https://www.confeitariacolombo.com.br/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Confeitaria+Colombo+Rio"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Confeitaria+Colombo+Rio",
+        logoUrl: "https://images.unsplash.com/photo-1546039907-7fa05f864c02?w=800"
     },
     {
         id: 81,
@@ -1296,7 +1376,8 @@ const restaurants = [
         status: "open",
         description: "Cultural cafe famous for camel burger and live music.",
         reservationUrl: "https://www.cafeclock.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Café+Clock+Fes"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Café+Clock+Fes",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 82,
@@ -1312,7 +1393,8 @@ const restaurants = [
         status: "open",
         description: "Elegant riad restaurant serving refined Moroccan cuisine.",
         reservationUrl: "https://www.lamaisonarabe.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Maison+Arabe+Marrakech"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Maison+Arabe+Marrakech",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 83,
@@ -1328,7 +1410,8 @@ const restaurants = [
         status: "open",
         description: "Farm-to-table restaurant showcasing regional Lebanese cuisine.",
         reservationUrl: "https://www.tawlet.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tawlet+Beirut"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tawlet+Beirut",
+        logoUrl: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800"
     },
     {
         id: 84,
@@ -1344,7 +1427,8 @@ const restaurants = [
         status: "open",
         description: "Famous for hummus and ful medames.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Abou+Hassan+Beirut"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Abou+Hassan+Beirut",
+        logoUrl: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800"
     },
     {
         id: 85,
@@ -1360,7 +1444,8 @@ const restaurants = [
         status: "open",
         description: "Renee Erickson's oyster bar in Ballard.",
         reservationUrl: "https://www.thewalrusbar.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Walrus+and+the+Carpenter+Seattle"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Walrus+and+the+Carpenter+Seattle",
+        logoUrl: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800"
     },
     {
         id: 86,
@@ -1376,7 +1461,8 @@ const restaurants = [
         status: "open",
         description: "Award-winning clam chowder in Pike Place Market.",
         reservationUrl: "https://www.pikeplacechowder.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pike+Place+Chowder+Seattle"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pike+Place+Chowder+Seattle",
+        logoUrl: "https://images.unsplash.com/photo-1559737558-2f5a35f4523d?w=800"
     },
     {
         id: 87,
@@ -1392,7 +1478,8 @@ const restaurants = [
         status: "open",
         description: "Legendary parrilla, ranked among the world's best steakhouses.",
         reservationUrl: "https://www.parrilladonjulio.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Don+Julio+Buenos+Aires"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Don+Julio+Buenos+Aires",
+        logoUrl: "https://images.unsplash.com/photo-1558030006-450675393462?w=800"
     },
     {
         id: 88,
@@ -1408,7 +1495,8 @@ const restaurants = [
         status: "open",
         description: "Popular parrilla known for huge portions and complimentary sides.",
         reservationUrl: "https://www.lacabrera.com.ar/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Cabrera+Buenos+Aires"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Cabrera+Buenos+Aires",
+        logoUrl: "https://images.unsplash.com/photo-1558030006-450675393462?w=800"
     },
     {
         id: 89,
@@ -1424,7 +1512,8 @@ const restaurants = [
         status: "open",
         description: "Legendary hummus spot in Jaffa. Closes when they run out.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Abu+Hassan+Tel+Aviv"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Abu+Hassan+Tel+Aviv",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 90,
@@ -1440,7 +1529,8 @@ const restaurants = [
         status: "open",
         description: "Vibrant restaurant in the Mahane Yehuda market area.",
         reservationUrl: "https://www.machneyuda.co.il/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Machneyuda+Jerusalem"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Machneyuda+Jerusalem",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 91,
@@ -1456,7 +1546,8 @@ const restaurants = [
         status: "closed",
         description: "Two Michelin-starred molecular gastronomy restaurant. Closed in 2020.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Funky+Gourmet+Athens"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Funky+Gourmet+Athens",
+        logoUrl: "https://images.unsplash.com/photo-1544124499-58912cbddaad?w=800"
     },
     {
         id: 92,
@@ -1472,7 +1563,8 @@ const restaurants = [
         status: "open",
         description: "Traditional taverna with live music and classic Greek dishes.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Klimataria+Athens"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Klimataria+Athens",
+        logoUrl: "https://images.unsplash.com/photo-1544124499-58912cbddaad?w=800"
     },
     {
         id: 93,
@@ -1488,7 +1580,8 @@ const restaurants = [
         status: "open",
         description: "Run entirely by women, serving traditional Moroccan cuisine.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Al+Fassia+Marrakech"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Al+Fassia+Marrakech",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 94,
@@ -1504,7 +1597,8 @@ const restaurants = [
         status: "open",
         description: "Celebrated for reviving forgotten Anatolian recipes.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Çiya+Sofrası+Istanbul"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Çiya+Sofrası+Istanbul",
+        logoUrl: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800"
     },
     {
         id: 95,
@@ -1520,7 +1614,8 @@ const restaurants = [
         status: "open",
         description: "Modern take on traditional Turkish lokanta food.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Karaköy+Lokantası+Istanbul"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Karaköy+Lokantası+Istanbul",
+        logoUrl: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800"
     },
     {
         id: 96,
@@ -1536,7 +1631,8 @@ const restaurants = [
         status: "open",
         description: "Popular spot for authentic Burmese cuisine.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Feel+Myanmar+Food+Yangon"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Feel+Myanmar+Food+Yangon",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 97,
@@ -1552,7 +1648,8 @@ const restaurants = [
         status: "open",
         description: "Specializing in Shan State cuisine.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Shan+Yoe+Yar+Yangon"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Shan+Yoe+Yar+Yangon",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 98,
@@ -1568,7 +1665,8 @@ const restaurants = [
         status: "open",
         description: "René Redzepi's legendary restaurant, multiple times world's best.",
         reservationUrl: "https://noma.dk/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Noma+Copenhagen"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Noma+Copenhagen",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 99,
@@ -1584,7 +1682,8 @@ const restaurants = [
         status: "closed",
         description: "Michelin-starred restaurant by Christian Puglisi. Closed in 2020.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Relæ+Copenhagen"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Relæ+Copenhagen",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 100,
@@ -1600,7 +1699,8 @@ const restaurants = [
         status: "open",
         description: "Gourmet organic hot dog stand.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=DØP+Copenhagen"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=DØP+Copenhagen",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 101,
@@ -1616,7 +1716,8 @@ const restaurants = [
         status: "open",
         description: "Modern Filipino comfort food in a casual setting.",
         reservationUrl: "https://www.manam.ph/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Manam+Comfort+Filipino+Manila"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Manam+Comfort+Filipino+Manila",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 102,
@@ -1632,7 +1733,8 @@ const restaurants = [
         status: "open",
         description: "The beloved Filipino fast food chain. Bourdain surprisingly enjoyed it.",
         reservationUrl: "https://www.jollibee.com.ph/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Jollibee+Manila"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Jollibee+Manila",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 103,
@@ -1648,7 +1750,8 @@ const restaurants = [
         status: "open",
         description: "Traditional Ethiopian food with cultural dance performances.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Yod+Abyssinia+Addis+Ababa"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Yod+Abyssinia+Addis+Ababa",
+        logoUrl: "https://images.unsplash.com/photo-1604329760661-e71dc83f8385?w=800"
     },
     {
         id: 104,
@@ -1664,7 +1767,8 @@ const restaurants = [
         status: "open",
         description: "Historic eatery since 1816, famous for tamales and hot chocolate.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Puerta+Falsa+Bogota"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Puerta+Falsa+Bogota",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 105,
@@ -1680,7 +1784,8 @@ const restaurants = [
         status: "open",
         description: "Massive, eclectic party restaurant with Colombian cuisine.",
         reservationUrl: "https://www.andrescarnederes.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Andres+Carne+de+Res+Chia"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Andres+Carne+de+Res+Chia",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 106,
@@ -1696,7 +1801,8 @@ const restaurants = [
         status: "open",
         description: "Manish Mehrotra's acclaimed modern Indian fine dining.",
         reservationUrl: "https://indianaccent.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Indian+Accent+New+Delhi"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Indian+Accent+New+Delhi",
+        logoUrl: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800"
     },
     {
         id: 107,
@@ -1712,7 +1818,8 @@ const restaurants = [
         status: "open",
         description: "Historic Mughlai restaurant near Jama Masjid since 1913.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Karim's+Delhi"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Karim's+Delhi",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 108,
@@ -1728,7 +1835,8 @@ const restaurants = [
         status: "open",
         description: "Iconic Parsi cafe run by the charming Boman Kohinoor.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Britannia+Co+Mumbai"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Britannia+Co+Mumbai",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 109,
@@ -1744,7 +1852,8 @@ const restaurants = [
         status: "open",
         description: "Famous for nasi uduk (coconut rice) and Indonesian breakfast.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Nasi+Uduk+Kebon+Kacang+Jakarta"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Nasi+Uduk+Kebon+Kacang+Jakarta",
+        logoUrl: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800"
     },
     {
         id: 110,
@@ -1760,7 +1869,8 @@ const restaurants = [
         status: "open",
         description: "The Dirty Duck Diner, famous for crispy duck.",
         reservationUrl: "https://www.bebekbengil.co.id/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bebek+Bengil+Ubud"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bebek+Bengil+Ubud",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 111,
@@ -1776,7 +1886,8 @@ const restaurants = [
         status: "open",
         description: "Famous street food street with numerous hawker stalls.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Jalan+Alor+Kuala+Lumpur"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Jalan+Alor+Kuala+Lumpur",
+        logoUrl: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800"
     },
     {
         id: 112,
@@ -1792,7 +1903,8 @@ const restaurants = [
         status: "open",
         description: "Chef Ismail's home-style Malay cooking buffet.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Restoran+Rebung+Chef+Ismail+KL"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Restoran+Rebung+Chef+Ismail+KL",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 113,
@@ -1808,7 +1920,8 @@ const restaurants = [
         status: "open",
         description: "World-famous xiao long bao (soup dumplings). Michelin-starred.",
         reservationUrl: "https://www.dintaifung.com.tw/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Din+Tai+Fung+Taipei"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Din+Tai+Fung+Taipei",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 114,
@@ -1824,7 +1937,8 @@ const restaurants = [
         status: "open",
         description: "Taipei's largest and most famous night market.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Shilin+Night+Market+Taipei"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Shilin+Night+Market+Taipei",
+        logoUrl: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800"
     },
     {
         id: 115,
@@ -1840,7 +1954,8 @@ const restaurants = [
         status: "open",
         description: "Famous for oyster vermicelli, served standing only.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Ay-Chung+Flour-Rice+Noodle+Taipei"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Ay-Chung+Flour-Rice+Noodle+Taipei",
+        logoUrl: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800"
     },
     {
         id: 116,
@@ -1856,7 +1971,8 @@ const restaurants = [
         status: "open",
         description: "Ireland's oldest pub, established 1198.",
         reservationUrl: "https://www.brazenhead.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Brazen+Head+Dublin"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Brazen+Head+Dublin",
+        logoUrl: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800"
     },
     {
         id: 117,
@@ -1872,7 +1988,8 @@ const restaurants = [
         status: "open",
         description: "Michelin-starred modern Irish cuisine.",
         reservationUrl: "https://www.chapteronerestaurant.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Chapter+One+Dublin"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Chapter+One+Dublin",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 118,
@@ -1888,7 +2005,8 @@ const restaurants = [
         status: "open",
         description: "Tom Kitchin's Michelin-starred 'from nature to plate' restaurant.",
         reservationUrl: "https://www.thekitchin.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Kitchin+Edinburgh"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Kitchin+Edinburgh",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 119,
@@ -1904,7 +2022,8 @@ const restaurants = [
         status: "open",
         description: "Iceland's first Michelin-starred restaurant.",
         reservationUrl: "https://www.dillrestaurant.is/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Dill+Restaurant+Reykjavik"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Dill+Restaurant+Reykjavik",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 120,
@@ -1920,7 +2039,8 @@ const restaurants = [
         status: "open",
         description: "Famous hot dog stand, reportedly Bill Clinton's favorite.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bæjarins+Beztu+Pylsur+Reykjavik"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bæjarins+Beztu+Pylsur+Reykjavik",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 121,
@@ -1936,7 +2056,8 @@ const restaurants = [
         status: "open",
         description: "Three Michelin-starred New Nordic restaurant.",
         reservationUrl: "https://maaemo.no/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Maaemo+Oslo"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Maaemo+Oslo",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 122,
@@ -1952,7 +2073,8 @@ const restaurants = [
         status: "open",
         description: "Two Michelin-starred restaurant focused on Nordic ingredients.",
         reservationUrl: "https://oaxen.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Oaxen+Krog+Stockholm"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Oaxen+Krog+Stockholm",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 123,
@@ -1968,7 +2090,8 @@ const restaurants = [
         status: "open",
         description: "Three Michelin-starred restaurant by Jonnie Boer.",
         reservationUrl: "https://www.librije.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=De+Librije+Zwolle"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=De+Librije+Zwolle",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 124,
@@ -1984,7 +2107,8 @@ const restaurants = [
         status: "open",
         description: "Two Michelin-starred Art Nouveau restaurant since 1926.",
         reservationUrl: "https://www.commechezsoi.be/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Comme+Chez+Soi+Brussels"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Comme+Chez+Soi+Brussels",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 125,
@@ -2000,7 +2124,8 @@ const restaurants = [
         status: "open",
         description: "Famous friterie near the Grand Place.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Fritland+Brussels"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Fritland+Brussels",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 126,
@@ -2016,7 +2141,8 @@ const restaurants = [
         status: "open",
         description: "Iconic currywurst stand since 1980.",
         reservationUrl: "https://www.curry36.de/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Curry+36+Berlin"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Curry+36+Berlin",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 127,
@@ -2032,7 +2158,8 @@ const restaurants = [
         status: "open",
         description: "Michelin-starred 'brutally local' cuisine.",
         reservationUrl: "https://nobelhartundschmutzig.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Nobelhart+Schmutzig+Berlin"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Nobelhart+Schmutzig+Berlin",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 128,
@@ -2048,7 +2175,8 @@ const restaurants = [
         status: "open",
         description: "Two Michelin-starred restaurant in Stadtpark.",
         reservationUrl: "https://www.steirereck.at/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Steirereck+Vienna"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Steirereck+Vienna",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 129,
@@ -2064,7 +2192,8 @@ const restaurants = [
         status: "open",
         description: "Historic coffeehouse since 1876, frequented by Freud and Trotsky.",
         reservationUrl: "https://www.cafecentral.wien/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Café+Central+Vienna"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Café+Central+Vienna",
+        logoUrl: "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800"
     },
     {
         id: 130,
@@ -2080,7 +2209,8 @@ const restaurants = [
         status: "open",
         description: "Three Michelin-starred restaurant, once home to Frédy Girardet.",
         reservationUrl: "https://www.restaurantcrissier.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Restaurant+de+l'Hôtel+de+Ville+Crissier"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Restaurant+de+l'Hôtel+de+Ville+Crissier",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 131,
@@ -2096,7 +2226,8 @@ const restaurants = [
         status: "open",
         description: "Legendary seafood restaurant, always packed.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cervejaria+Ramiro+Lisbon"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cervejaria+Ramiro+Lisbon",
+        logoUrl: "https://images.unsplash.com/photo-1559737558-2f5a35f4523d?w=800"
     },
     {
         id: 132,
@@ -2112,7 +2243,8 @@ const restaurants = [
         status: "open",
         description: "José Avillez's two Michelin-starred restaurant.",
         reservationUrl: "https://www.belcanto.pt/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Belcanto+Lisbon"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Belcanto+Lisbon",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 133,
@@ -2128,7 +2260,8 @@ const restaurants = [
         status: "open",
         description: "Traditional Polish milk bar serving cheap, homey food.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Milk+Bar+Prasowy+Warsaw"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Milk+Bar+Prasowy+Warsaw",
+        logoUrl: "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800"
     },
     {
         id: 134,
@@ -2144,7 +2277,8 @@ const restaurants = [
         status: "open",
         description: "Traditional Czech beer hall with excellent pub food.",
         reservationUrl: "https://lokal-dlouha.ambi.cz/en/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Lokál+Prague"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Lokál+Prague",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 135,
@@ -2160,7 +2294,8 @@ const restaurants = [
         status: "open",
         description: "Elegant restaurant serving traditional Russian cuisine.",
         reservationUrl: "https://www.cafe-pushkin.ru/en/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cafe+Pushkin+Moscow"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Cafe+Pushkin+Moscow",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 136,
@@ -2176,7 +2311,8 @@ const restaurants = [
         status: "open",
         description: "Luke Dale-Roberts' acclaimed restaurant, once in World's 50 Best.",
         reservationUrl: "https://thetestkitchen.co.za/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Test+Kitchen+Cape+Town"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Test+Kitchen+Cape+Town",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 137,
@@ -2192,7 +2328,8 @@ const restaurants = [
         status: "open",
         description: "Popular spot for traditional Senegalese thieboudienne.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Chez+Loutcha+Dakar"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Chez+Loutcha+Dakar",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 138,
@@ -2208,7 +2345,8 @@ const restaurants = [
         status: "open",
         description: "Restaurant on a rock in the Indian Ocean, accessible at low tide.",
         reservationUrl: "https://therockrestaurantzanzibar.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Rock+Restaurant+Zanzibar"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Rock+Restaurant+Zanzibar",
+        logoUrl: "https://images.unsplash.com/photo-1559737558-2f5a35f4523d?w=800"
     },
     {
         id: 139,
@@ -2224,7 +2362,8 @@ const restaurants = [
         status: "open",
         description: "Famous open-air jerk center, authentic Jamaican jerk chicken and pork.",
         reservationUrl: "https://www.scotchiesjerk.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Scotchies+Montego+Bay"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Scotchies+Montego+Bay",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 140,
@@ -2240,7 +2379,8 @@ const restaurants = [
         status: "open",
         description: "Popular spot for doubles and other Trinidadian street food.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Patraj+Port+of+Spain"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Patraj+Port+of+Spain",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 141,
@@ -2256,7 +2396,8 @@ const restaurants = [
         status: "open",
         description: "Traditional Egyptian cuisine in an authentic atmosphere.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Abou+El+Sid+Cairo"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Abou+El+Sid+Cairo",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 142,
@@ -2272,7 +2413,8 @@ const restaurants = [
         status: "open",
         description: "Famous for tahchin and traditional Persian stews since 1950.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Moslem+Restaurant+Tehran"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Moslem+Restaurant+Tehran",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 143,
@@ -2288,7 +2430,8 @@ const restaurants = [
         status: "open",
         description: "Rodolfo Guzmán's acclaimed restaurant focusing on Chilean ingredients.",
         reservationUrl: "https://borago.cl/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Boragó+Santiago"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Boragó+Santiago",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 144,
@@ -2304,7 +2447,8 @@ const restaurants = [
         status: "open",
         description: "Historic market with parrilla restaurants serving Uruguayan beef.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mercado+del+Puerto+Montevideo"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mercado+del+Puerto+Montevideo",
+        logoUrl: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800"
     },
     {
         id: 145,
@@ -2320,7 +2464,8 @@ const restaurants = [
         status: "open",
         description: "Popular fritanga (outdoor grill) serving traditional Nicaraguan food.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Fritanga+Doña+Haydee+Managua"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Fritanga+Doña+Haydee+Managua",
+        logoUrl: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800"
     },
     {
         id: 146,
@@ -2336,7 +2481,8 @@ const restaurants = [
         status: "open",
         description: "Famous paladar in a crumbling mansion, featured in 'Fresa y Chocolate'.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Guarida+Havana"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Guarida+Havana",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 147,
@@ -2352,7 +2498,8 @@ const restaurants = [
         status: "open",
         description: "Where Obama and Bourdain dined together in Havana.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=San+Cristobal+Paladar+Havana"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=San+Cristobal+Paladar+Havana",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 148,
@@ -2368,7 +2515,8 @@ const restaurants = [
         status: "open",
         description: "Chef José Enrique's acclaimed Puerto Rican restaurant.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=José+Enrique+San+Juan"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=José+Enrique+San+Juan",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 149,
@@ -2384,7 +2532,8 @@ const restaurants = [
         status: "open",
         description: "Peter Gilmore's three-hatted restaurant with harbor views.",
         reservationUrl: "https://www.quay.com.au/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Quay+Sydney"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Quay+Sydney",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 150,
@@ -2400,7 +2549,8 @@ const restaurants = [
         status: "open",
         description: "Ben Shewry's acclaimed restaurant, ranked in World's 50 Best.",
         reservationUrl: "https://www.attica.com.au/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Attica+Melbourne"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Attica+Melbourne",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 151,
@@ -2416,7 +2566,8 @@ const restaurants = [
         status: "open",
         description: "Legendary burger joint, always has massive queues.",
         reservationUrl: "https://www.fergburger.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Fergburger+Queenstown"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Fergburger+Queenstown",
+        logoUrl: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800"
     },
     {
         id: 152,
@@ -2432,7 +2583,8 @@ const restaurants = [
         status: "closed",
         description: "Vikram Vij's acclaimed Indian restaurant. Original location closed 2016.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Vij's+Vancouver"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Vij's+Vancouver",
+        logoUrl: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800"
     },
     {
         id: 153,
@@ -2448,7 +2600,8 @@ const restaurants = [
         status: "open",
         description: "Martin Picard's over-the-top sugar shack in the woods.",
         reservationUrl: "https://www.cabaneasucre.ca/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Au+Pied+de+Cochon+Cabane+Mirabel"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Au+Pied+de+Cochon+Cabane+Mirabel",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 154,
@@ -2464,7 +2617,8 @@ const restaurants = [
         status: "open",
         description: "The original Nashville hot chicken since 1945.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Prince's+Hot+Chicken+Nashville"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Prince's+Hot+Chicken+Nashville",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 155,
@@ -2480,7 +2634,8 @@ const restaurants = [
         status: "open",
         description: "Iconic drive-in restaurant since 1928. 'What'll ya have?'",
         reservationUrl: "https://www.thevarsity.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Varsity+Atlanta"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Varsity+Atlanta",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 156,
@@ -2496,7 +2651,8 @@ const restaurants = [
         status: "open",
         description: "Famous for sandwiches with fries and coleslaw inside.",
         reservationUrl: "https://www.primantibros.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Primanti+Bros+Pittsburgh"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Primanti+Bros+Pittsburgh",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 157,
@@ -2512,7 +2668,8 @@ const restaurants = [
         status: "open",
         description: "Home of the original 'Jucy Lucy' (cheese-stuffed burger).",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Matt's+Bar+Minneapolis"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Matt's+Bar+Minneapolis",
+        logoUrl: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800"
     },
     {
         id: 158,
@@ -2528,7 +2685,8 @@ const restaurants = [
         status: "open",
         description: "Memphis-style BBQ institution, famous for ribs and pulled pork.",
         reservationUrl: "https://www.cbqmemphis.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Central+BBQ+Memphis"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Central+BBQ+Memphis",
+        logoUrl: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800"
     },
     {
         id: 159,
@@ -2544,7 +2702,8 @@ const restaurants = [
         status: "open",
         description: "Popular hot chicken spot with multiple heat levels.",
         reservationUrl: "https://www.hattieb.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Hattie+B's+Nashville"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Hattie+B's+Nashville",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 160,
@@ -2560,7 +2719,8 @@ const restaurants = [
         status: "open",
         description: "Inventor of the cheesesteak in 1930. Rival to Geno's across the street.",
         reservationUrl: "https://www.patskingofsteaks.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pat's+King+of+Steaks+Philadelphia"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Pat's+King+of+Steaks+Philadelphia",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 161,
@@ -2576,7 +2736,8 @@ const restaurants = [
         status: "open",
         description: "Famous for spicy beef noodle soup, a Hue specialty.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bun+Bo+Hue+Dong+Ba+Hue"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bun+Bo+Hue+Dong+Ba+Hue",
+        logoUrl: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800"
     },
     {
         id: 162,
@@ -2592,7 +2753,8 @@ const restaurants = [
         status: "open",
         description: "Popular spot for crispy Vietnamese savory pancakes.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Banh+Xeo+46A+Ho+Chi+Minh+City"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Banh+Xeo+46A+Ho+Chi+Minh+City",
+        logoUrl: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800"
     },
     {
         id: 163,
@@ -2608,7 +2770,8 @@ const restaurants = [
         status: "open",
         description: "Popular chain for gyudon (beef bowl) and udon.",
         reservationUrl: "https://www.nakau.co.jp/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Nakau+Tokyo"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Nakau+Tokyo",
+        logoUrl: "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800"
     },
     {
         id: 164,
@@ -2624,7 +2787,8 @@ const restaurants = [
         status: "open",
         description: "Narrow alleyway filled with tiny yakitori joints and izakayas.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Omoide+Yokocho+Tokyo"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Omoide+Yokocho+Tokyo",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 165,
@@ -2640,7 +2804,8 @@ const restaurants = [
         status: "open",
         description: "Famous entertainment district with takoyaki, okonomiyaki, and street food.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Dotonbori+Osaka"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Dotonbori+Osaka",
+        logoUrl: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800"
     },
     {
         id: 166,
@@ -2656,7 +2821,8 @@ const restaurants = [
         status: "open",
         description: "Famous for pad thai wrapped in egg, open since 1966.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Thip+Samai+Bangkok"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Thip+Samai+Bangkok",
+        logoUrl: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800"
     },
     {
         id: 167,
@@ -2672,7 +2838,8 @@ const restaurants = [
         status: "open",
         description: "Alain Passard's 3-Michelin star vegetable-focused haute cuisine.",
         reservationUrl: "https://www.alain-passard.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=L'Arpège+Paris"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=L'Arpège+Paris",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 168,
@@ -2688,7 +2855,8 @@ const restaurants = [
         status: "open",
         description: "Traditional Roman trattoria in Testaccio, famous for cacio e pepe.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Da+Felice+Rome"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Da+Felice+Rome",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 169,
@@ -2704,7 +2872,8 @@ const restaurants = [
         status: "open",
         description: "Testaccio trattoria known for traditional Roman pasta dishes.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Flavio+al+Velavevodetto+Rome"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Flavio+al+Velavevodetto+Rome",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 170,
@@ -2720,7 +2889,8 @@ const restaurants = [
         status: "open",
         description: "Family-run trattoria serving traditional Modenese cuisine.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Trattoria+Aldina+Modena"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Trattoria+Aldina+Modena",
+        logoUrl: "https://images.unsplash.com/photo-1595295333158-4742f28fbd85?w=800"
     },
     {
         id: 171,
@@ -2736,7 +2906,8 @@ const restaurants = [
         status: "open",
         description: "3-Michelin star restaurant in the countryside near Bergamo.",
         reservationUrl: "https://www.davittorio.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Da+Vittorio+Brusaporto"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Da+Vittorio+Brusaporto",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 172,
@@ -2752,7 +2923,8 @@ const restaurants = [
         status: "open",
         description: "2-Michelin star restaurant, known for avant-garde cuisine.",
         reservationUrl: "https://www.mugaritz.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mugaritz+San+Sebastian"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mugaritz+San+Sebastian",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 173,
@@ -2768,7 +2940,8 @@ const restaurants = [
         status: "open",
         description: "Victor Arguinzoniz's legendary wood-fire grill restaurant.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Asador+Etxebarri+Axpe"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Asador+Etxebarri+Axpe",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 174,
@@ -2784,7 +2957,8 @@ const restaurants = [
         status: "open",
         description: "Tiny bar famous for tomato salad and steak served only at lunch.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Nestor+San+Sebastian"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Nestor+San+Sebastian",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 175,
@@ -2800,7 +2974,8 @@ const restaurants = [
         status: "open",
         description: "Famous for croquetas - some of the best in Madrid.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Casa+Julio+Madrid"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Casa+Julio+Madrid",
+        logoUrl: "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800"
     },
     {
         id: 176,
@@ -2816,7 +2991,8 @@ const restaurants = [
         status: "open",
         description: "Jorge Vallejo's restaurant showcasing Mexican ingredients with modern techniques.",
         reservationUrl: "https://www.quintonil.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Quintonil+Mexico+City"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Quintonil+Mexico+City",
+        logoUrl: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800"
     },
     {
         id: 177,
@@ -2832,7 +3008,8 @@ const restaurants = [
         status: "open",
         description: "Famous for barbacoa (slow-cooked lamb) and consommé.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=El+Hidalguense+Mexico+City"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=El+Hidalguense+Mexico+City",
+        logoUrl: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800"
     },
     {
         id: 178,
@@ -2848,7 +3025,8 @@ const restaurants = [
         status: "open",
         description: "Street vendor in the market famous for tasajo (dried beef) tacos.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mercado+20+de+Noviembre+Oaxaca"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Mercado+20+de+Noviembre+Oaxaca",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 179,
@@ -2864,7 +3042,8 @@ const restaurants = [
         status: "open",
         description: "Legendary bakery famous for country bread and morning buns.",
         reservationUrl: "https://www.tartinebakery.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tartine+Bakery+San+Francisco"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Tartine+Bakery+San+Francisco",
+        logoUrl: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800"
     },
     {
         id: 180,
@@ -2880,7 +3059,8 @@ const restaurants = [
         status: "open",
         description: "Charles Phan's upscale Vietnamese restaurant with bay views.",
         reservationUrl: "https://www.slanteddoor.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Slanted+Door+San+Francisco"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Slanted+Door+San+Francisco",
+        logoUrl: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800"
     },
     {
         id: 181,
@@ -2896,7 +3076,8 @@ const restaurants = [
         status: "open",
         description: "Jessica Koslow's influential breakfast and lunch spot with house-made jams.",
         reservationUrl: "https://www.sqirlla.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Sqirl+Los+Angeles"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Sqirl+Los+Angeles",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 182,
@@ -2912,7 +3093,8 @@ const restaurants = [
         status: "open",
         description: "Korea's largest seafood market. Buy fresh fish and have it prepared upstairs.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Noryangjin+Fish+Market+Seoul"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Noryangjin+Fish+Market+Seoul",
+        logoUrl: "https://images.unsplash.com/photo-1559737558-2f5a35f4523d?w=800"
     },
     {
         id: 183,
@@ -2928,7 +3110,8 @@ const restaurants = [
         status: "open",
         description: "Famous for hand-pulled noodles and spicy cumin lamb.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Xi'an+Famous+Foods+Xi'an"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Xi'an+Famous+Foods+Xi'an",
+        logoUrl: "https://images.unsplash.com/photo-1626074353765-517a65ea7f5a?w=800"
     },
     {
         id: 184,
@@ -2944,7 +3127,8 @@ const restaurants = [
         status: "open",
         description: "High-end seafood market and restaurant with sushi bar.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Addiction+Aquatic+Development+Taipei"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Addiction+Aquatic+Development+Taipei",
+        logoUrl: "https://images.unsplash.com/photo-1559737558-2f5a35f4523d?w=800"
     },
     {
         id: 185,
@@ -2960,7 +3144,8 @@ const restaurants = [
         status: "open",
         description: "Traditional Lebanese restaurant with nargileh and mezze.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Al+Falamanki+Beirut"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Al+Falamanki+Beirut",
+        logoUrl: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800"
     },
     {
         id: 186,
@@ -2976,7 +3161,8 @@ const restaurants = [
         status: "open",
         description: "Portuguese restaurant known for bacalhau (salt cod).",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Leitaria+da+Quinta+do+Paço+Rio"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Leitaria+da+Quinta+do+Paço+Rio",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 187,
@@ -2992,7 +3178,8 @@ const restaurants = [
         status: "open",
         description: "Curated food hall featuring Lisbon's best chefs and restaurants.",
         reservationUrl: "https://www.timeoutmarket.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Time+Out+Market+Lisbon"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Time+Out+Market+Lisbon",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 188,
@@ -3008,7 +3195,8 @@ const restaurants = [
         status: "open",
         description: "Traditional deli and restaurant with cured meats and meze.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Ta+Karamanlidika+Athens"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Ta+Karamanlidika+Athens",
+        logoUrl: "https://images.unsplash.com/photo-1544124499-58912cbddaad?w=800"
     },
     {
         id: 189,
@@ -3024,7 +3212,8 @@ const restaurants = [
         status: "closed",
         description: "Neil Perry's iconic steakhouse. Closed in 2021.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Rockpool+Bar+Grill+Sydney"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Rockpool+Bar+Grill+Sydney",
+        logoUrl: "https://images.unsplash.com/photo-1558030006-450675393462?w=800"
     },
     {
         id: 190,
@@ -3040,7 +3229,8 @@ const restaurants = [
         status: "open",
         description: "Another cheap Michelin star. Famous for soya sauce chicken rice.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Hong+Kong+Soya+Sauce+Chicken+Singapore"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Hong+Kong+Soya+Sauce+Chicken+Singapore",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 191,
@@ -3056,7 +3246,8 @@ const restaurants = [
         status: "open",
         description: "Famous for butter garlic crab and coastal Indian seafood.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Trishna+Mumbai"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Trishna+Mumbai",
+        logoUrl: "https://images.unsplash.com/photo-1559737558-2f5a35f4523d?w=800"
     },
     {
         id: 192,
@@ -3072,7 +3263,8 @@ const restaurants = [
         status: "open",
         description: "Mountain restaurants serving kebabs and tea with stunning views.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Darband+Tehran"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Darband+Tehran",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 193,
@@ -3088,7 +3280,8 @@ const restaurants = [
         status: "open",
         description: "Chef Leonor Espinosa's restaurant celebrating Colombian biodiversity.",
         reservationUrl: "https://www.leococinaysava.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Leo+Cocina+y+Cava+Bogota"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Leo+Cocina+y+Cava+Bogota",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 194,
@@ -3104,7 +3297,8 @@ const restaurants = [
         status: "open",
         description: "Massive, colorful restaurant with live music and grilled meats.",
         reservationUrl: "https://www.andrescarnederes.com/",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Andrés+Carne+de+Res+Chia"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Andrés+Carne+de+Res+Chia",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 195,
@@ -3120,7 +3314,8 @@ const restaurants = [
         status: "open",
         description: "Cultural restaurant serving traditional injera and wot with live performances.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=2000+Habesha+Addis+Ababa"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=2000+Habesha+Addis+Ababa",
+        logoUrl: "https://images.unsplash.com/photo-1604329760661-e71dc83f8385?w=800"
     },
     {
         id: 196,
@@ -3136,7 +3331,8 @@ const restaurants = [
         status: "open",
         description: "Beachside restaurant famous for pepper shrimp and fresh seafood.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Glory's+Port+Antonio"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Glory's+Port+Antonio",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     },
     {
         id: 197,
@@ -3152,6 +3348,7 @@ const restaurants = [
         status: "open",
         description: "Beach shack famous for bake and shark sandwich.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Richard's+Bake+Shark+Maracas"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Richard's+Bake+Shark+Maracas",
+        logoUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
     }
 ];

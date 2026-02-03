@@ -111,7 +111,7 @@ function showRestaurantDetails(restaurant) {
             <h2 class="modal-title">${restaurant.name}</h2>
             <div class="modal-location">${restaurant.city}, ${restaurant.country}</div>
             <div class="modal-badges">
-                <span class="modal-badge ${statusClass}">${restaurant.status.toUpperCase()}</span>
+                <span class="modal-badge ${statusClass}">${restaurant.status === 'open' ? 'Currently Open' : restaurant.status === 'closed' ? 'Closed' : 'Unknown'}</span>
                 <span class="modal-badge badge-cuisine">${restaurant.cuisine}</span>
             </div>
         </div>
@@ -369,7 +369,7 @@ function updateRestaurantGrid() {
                         <div class="card-location">${restaurant.city}, ${restaurant.country}</div>
                     </div>
                     <div class="card-meta">
-                        <span class="card-badge ${statusClass}">${restaurant.status === 'open' ? 'Open' : 'Closed'}</span>
+                        <span class="card-badge ${statusClass}">${restaurant.status === 'open' ? 'Currently Open' : 'Closed'}</span>
                         <span class="card-badge badge-cuisine">${restaurant.cuisine}</span>
                     </div>
                     <div class="card-show">${restaurant.show}</div>
