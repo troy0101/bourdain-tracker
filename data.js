@@ -15,7 +15,8 @@ const restaurants = [
         status: "closed",
         description: "The legendary brasserie where Bourdain worked as executive chef. Sadly closed in 2017.",
         reservationUrl: "",
-        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Les+Halles+New+York"
+        googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Les+Halles+New+York",
+        logoUrl: ""
     },
     {
         id: 2,

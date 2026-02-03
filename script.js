@@ -339,8 +339,15 @@ function updateRestaurantGrid() {
     });
     
     filteredRestaurants.sort((a, b) => {
+        // First sort by status (open first, closed last)
+        if (a.status !== b.status) {
+            return a.status === 'open' ? -1 : 1;
+        }
+        // Then by country
         if (a.country !== b.country) return a.country.localeCompare(b.country);
+        // Then by city
         if (a.city !== b.city) return a.city.localeCompare(b.city);
+        // Finally by name
         return a.name.localeCompare(b.name);
     });
     
@@ -349,9 +356,13 @@ function updateRestaurantGrid() {
         const visitedClass = isVisited(restaurant.id) ? 'visited' : '';
         const wishlistClass = isWishlisted(restaurant.id) ? 'wishlist' : '';
         
+        const cardImage = restaurant.logoUrl ? 
+            `<div class="card-image" style="background-image: url('${restaurant.logoUrl}'); background-size: cover; background-position: center;"></div>` :
+            `<div class="card-image">🍴</div>`;
+        
         return `
-            <div class="restaurant-card ${visitedClass} ${wishlistClass}" onclick="showRestaurantDetails(${JSON.stringify(restaurant).replace(/"/g, '&quot;')})">
-                <div class="card-image">🍴</div>
+            <div class="restaurant-card ${visitedClass} ${wishlistClass}" data-status="${restaurant.status}" onclick="showRestaurantDetails(${JSON.stringify(restaurant).replace(/"/g, '&quot;')})">
+                ${cardImage}
                 <div class="card-content">
                     <div class="card-header">
                         <h3 class="card-title">${restaurant.name}</h3>
