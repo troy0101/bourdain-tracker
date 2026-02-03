@@ -2,6 +2,7 @@
 let map;
 let markers = [];
 let visitedRestaurants = JSON.parse(localStorage.getItem('visitedRestaurants')) || [];
+let wishlistRestaurants = JSON.parse(localStorage.getItem('wishlistRestaurants')) || [];
 let currentFilter = 'all';
 let currentCountryFilter = 'all';
 let currentCityFilter = 'all';
@@ -89,6 +90,7 @@ function showRestaurantDetails(restaurant) {
     
     const statusClass = restaurant.status === 'open' ? 'badge-open' : 'badge-closed';
     const visitedChecked = isVisited(restaurant.id) ? 'checked' : '';
+    const wishlistChecked = isWishlisted(restaurant.id) ? 'checked' : '';
     
     let actions = `
         <a href="${restaurant.googleMapsUrl}" target="_blank" class="modal-btn btn-primary">
@@ -135,9 +137,25 @@ function showRestaurantDetails(restaurant) {
             </div>
         </div>
         
-        <div class="checkbox-wrapper" onclick="toggleVisited(${restaurant.id})">
-            <input type="checkbox" id="visited-${restaurant.id}" ${visitedChecked} onclick="event.stopPropagation();">
-            <label class="checkbox-label">I've been here!</label>
+        <div class="modal-section">
+            <h3 class="modal-section-title">Track This Restaurant</h3>
+            <div class="track-options">
+                <label class="track-option">
+                    <input type="radio" name="track-${restaurant.id}" value="none" ${!visitedChecked && !wishlistChecked ? 'checked' : ''}>
+                    <span class="track-label">Not tracked</span>
+                </label>
+                <label class="track-option visited-option">
+                    <input type="radio" name="track-${restaurant.id}" value="visited" ${visitedChecked ? 'checked' : ''}>
+                    <span class="track-label">✓ I've been here</span>
+                </label>
+                <label class="track-option wishlist-option">
+                    <input type="radio" name="track-${restaurant.id}" value="wishlist" ${wishlistChecked ? 'checked' : ''}>
+                    <span class="track-label">⭐ Want to go</span>
+                </label>
+            </div>
+            <button class="modal-btn btn-submit" onclick="submitTracking(${restaurant.id})">
+                Save Selection
+            </button>
         </div>
         
         <div class="modal-actions">
@@ -150,6 +168,50 @@ function showRestaurantDetails(restaurant) {
 
 function isVisited(restaurantId) {
     return visitedRestaurants.includes(restaurantId);
+}
+
+function isWishlisted(restaurantId) {
+    return wishlistRestaurants.includes(restaurantId);
+}
+
+function submitTracking(restaurantId) {
+    const selectedValue = document.querySelector(`input[name="track-${restaurantId}"]:checked`).value;
+    
+    // Remove from both lists first
+    visitedRestaurants = visitedRestaurants.filter(id => id !== restaurantId);
+    wishlistRestaurants = wishlistRestaurants.filter(id => id !== restaurantId);
+    
+    // Add to appropriate list
+    if (selectedValue === 'visited') {
+        visitedRestaurants.push(restaurantId);
+    } else if (selectedValue === 'wishlist') {
+        wishlistRestaurants.push(restaurantId);
+    }
+    
+    // Save to localStorage
+    localStorage.setItem('visitedRestaurants', JSON.stringify(visitedRestaurants));
+    localStorage.setItem('wishlistRestaurants', JSON.stringify(wishlistRestaurants));
+    
+    // Save to Firestore if signed in
+    if (currentUser && window.firebaseDB) {
+        saveToFirestore(currentUser.uid);
+    }
+    
+    // Update UI
+    updateStats();
+    updateRestaurantGrid();
+    if (currentView === 'map') {
+        updateMarkers();
+    }
+    
+    // Close modal
+    document.getElementById('restaurantModal').classList.remove('active');
+    
+    // Show success message
+    const message = selectedValue === 'visited' ? '✓ Marked as visited!' : 
+                    selectedValue === 'wishlist' ? '⭐ Added to wishlist!' : 
+                    'Removed from tracking';
+    showSyncStatus(message, false);
 }
 
 function toggleVisited(restaurantId) {
@@ -168,7 +230,7 @@ function toggleVisited(restaurantId) {
     
     // Save to Firestore if user is signed in
     if (currentUser && window.firebaseDB) {
-        saveVisitedToFirestore(currentUser.uid);
+        saveToFirestore(currentUser.uid);
     }
     
     updateStats();
@@ -178,11 +240,57 @@ function toggleVisited(restaurantId) {
     }
 }
 
+function isWishlisted(restaurantId) {
+    return wishlistRestaurants.includes(restaurantId);
+}
+
+function submitTracking(restaurantId) {
+    const selectedValue = document.querySelector(`input[name="track-${restaurantId}"]:checked`).value;
+    
+    // Remove from both lists first
+    visitedRestaurants = visitedRestaurants.filter(id => id !== restaurantId);
+    wishlistRestaurants = wishlistRestaurants.filter(id => id !== restaurantId);
+    
+    // Add to appropriate list
+    if (selectedValue === 'visited') {
+        visitedRestaurants.push(restaurantId);
+    } else if (selectedValue === 'wishlist') {
+        wishlistRestaurants.push(restaurantId);
+    }
+    
+    // Save to localStorage
+    localStorage.setItem('visitedRestaurants', JSON.stringify(visitedRestaurants));
+    localStorage.setItem('wishlistRestaurants', JSON.stringify(wishlistRestaurants));
+    
+    // Save to Firestore if signed in
+    if (currentUser && window.firebaseDB) {
+        saveToFirestore(currentUser.uid);
+    }
+    
+    // Update UI
+    updateStats();
+    updateRestaurantGrid();
+    if (currentView === 'map') {
+        updateMarkers();
+    }
+    
+    // Close modal
+    document.getElementById('restaurantModal').classList.remove('active');
+    
+    // Show success message
+    const message = selectedValue === 'visited' ? '✓ Marked as visited!' : 
+                    selectedValue === 'wishlist' ? '⭐ Added to wishlist!' : 
+                    'Removed from tracking';
+    showSyncStatus(message, false);
+}
+
 function updateStats() {
     const visitedCount = visitedRestaurants.length;
+    const wishlistCount = wishlistRestaurants.length;
     const totalCount = restaurants.length;
     
     document.getElementById('visitedCount').textContent = visitedCount;
+    document.getElementById('wishlistCount').textContent = wishlistCount;
     document.getElementById('totalCount').textContent = totalCount;
 }
 
@@ -225,7 +333,8 @@ function updateRestaurantGrid() {
         const cityMatch = currentCityFilter === 'all' || restaurant.city === currentCityFilter;
         const statusMatch = currentFilter === 'all' || 
                           (currentFilter === 'visited' && isVisited(restaurant.id)) ||
-                          (currentFilter === 'unvisited' && !isVisited(restaurant.id));
+                          (currentFilter === 'wishlist' && isWishlisted(restaurant.id)) ||
+                          (currentFilter === 'unvisited' && !isVisited(restaurant.id) && !isWishlisted(restaurant.id));
         return countryMatch && cityMatch && statusMatch;
     });
     
@@ -238,9 +347,10 @@ function updateRestaurantGrid() {
     container.innerHTML = filteredRestaurants.map(restaurant => {
         const statusClass = restaurant.status === 'open' ? 'badge-open' : 'badge-closed';
         const visitedClass = isVisited(restaurant.id) ? 'visited' : '';
+        const wishlistClass = isWishlisted(restaurant.id) ? 'wishlist' : '';
         
         return `
-            <div class="restaurant-card ${visitedClass}" onclick="showRestaurantDetails(${JSON.stringify(restaurant).replace(/"/g, '&quot;')})">
+            <div class="restaurant-card ${visitedClass} ${wishlistClass}" onclick="showRestaurantDetails(${JSON.stringify(restaurant).replace(/"/g, '&quot;')})">
                 <div class="card-image">🍴</div>
                 <div class="card-content">
                     <div class="card-header">
@@ -351,6 +461,8 @@ document.addEventListener('DOMContentLoaded', () => {
 // Make functions globally accessible
 window.showRestaurantDetails = showRestaurantDetails;
 window.toggleVisited = toggleVisited;
+window.submitTracking = submitTracking;
+window.submitTracking = submitTracking;
 
 // ==================== FIREBASE AUTHENTICATION ====================
 
@@ -426,11 +538,13 @@ async function loadVisitedFromFirestore(uid) {
         if (doc.exists) {
             const data = doc.data();
             visitedRestaurants = data.visitedRestaurants || [];
+            wishlistRestaurants = data.wishlistRestaurants || [];
         } else {
             // First time sign in - migrate localStorage data
             visitedRestaurants = JSON.parse(localStorage.getItem('visitedRestaurants')) || [];
-            if (visitedRestaurants.length > 0) {
-                await saveVisitedToFirestore(uid);
+            wishlistRestaurants = JSON.parse(localStorage.getItem('wishlistRestaurants')) || [];
+            if (visitedRestaurants.length > 0 || wishlistRestaurants.length > 0) {
+                await saveToFirestore(uid);
                 showSyncStatus('✓ Migrated local data to cloud', false);
             }
         }
@@ -446,12 +560,13 @@ async function loadVisitedFromFirestore(uid) {
     }
 }
 
-async function saveVisitedToFirestore(uid) {
+async function saveToFirestore(uid) {
     if (!window.firebaseDB || !uid) return;
     
     try {
         await firebase.firestore().collection('users').doc(uid).set({
             visitedRestaurants: visitedRestaurants,
+            wishlistRestaurants: wishlistRestaurants,
             lastUpdated: firebase.firestore.FieldValue.serverTimestamp()
         }, { merge: true });
     } catch (error) {
